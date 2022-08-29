@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Page"
+    "\\Page",
+    "\\_layouts"
   ],
-  "SelectedNode": "\\index.md",
+  "SelectedNode": "\\_layouts\\default.html",
   "PreviewInSolutionExplorer": false
 }
