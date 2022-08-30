@@ -1,0 +1,16 @@
+{% assign sidebar = site.data.data.sidebar %}
+<div class="sidebar-wrapper">
+
+    <div class="profile-container">
+
+        {% if sidebar.name %}
+        <!--<img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />-->
+        <img class="avatar" src="https://avatars.githubusercontent.com/u/22354660" alt="profile picture" />
+        {% endif %}
+
+    </div><!--//profile-container-->
+    {% include contact.html %}
+
+    {% include siderbarfooter.html %}
+
+</div><!--//sidebar-wrapper-->
