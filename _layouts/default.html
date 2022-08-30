@@ -35,7 +35,6 @@
             </ul>
             {% endif %}
         </header>
-       
         <footer>
             {% if site.github.is_project_page %}
             <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
@@ -44,9 +43,16 @@
             <p><small>Feito com <i class="fas fa-heart"></i> pelo <a href="https://github.com/fabiohcnobre" target="_blank" rel="nofollow">FabioHCNobre</a></small></p>
         </footer>
     </nav>
-   
+
+
+    <main>
+
+        {{ content }}
+
+    </main>
+
 
     {% include scripts.html %}
-     
+
 </body>
 </html>
