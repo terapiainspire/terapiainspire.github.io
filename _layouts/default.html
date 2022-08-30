@@ -20,7 +20,7 @@
             {% if site.logo %}
             <!--<img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />-->
             <!--<img src="{{site.logo | relative_url}}" alt="Logo" />-->
-            <img src="{{ site.logo }}" alt="Logo" />
+            <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.logo }}" alt="profile picture" />
             {% endif %}
 
             <p>{{ site.description | default: site.github.project_tagline }}</p>
