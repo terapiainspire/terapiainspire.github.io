@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets\\plugins",
     "\\Page",
-    "\\pdf"
+    "\\_includes"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Page\\sample_page.md",
   "PreviewInSolutionExplorer": false
 }
