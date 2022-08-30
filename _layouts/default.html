@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "pt-BR" }}">
 
-
 {% include head.html %}
 
 <body>
-    <div class="wrapper">
+    <nav>
         <header>
             <h3><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h3>
 
@@ -48,7 +47,7 @@
             <p><small>Hospedado no GitHub Pages &mdash;</small></p>
             <p><small>Feito com <i class="fas fa-heart"></i> pelo <a href="https://github.com/fabiohcnobre" target="_blank" rel="nofollow">FabioHCNobre</a></small></p>
         </footer>
-    </div>
+    </nav>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
