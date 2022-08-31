@@ -3,8 +3,10 @@
     "",
     "\\assets\\plugins",
     "\\Page",
-    "\\_includes"
+    "\\_includes",
+    "\\_layouts",
+    "\\_sass"
   ],
-  "SelectedNode": "\\Page\\sample_page.md",
+  "SelectedNode": "\\_includes\\head.html",
   "PreviewInSolutionExplorer": false
 }
