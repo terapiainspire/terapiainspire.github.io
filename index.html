@@ -1,6 +1,3 @@
----
-#Add "layout: compress" here to compress the html code
----
 <!DOCTYPE HTML>
 <!--
 	Feito com <3 pelo FabioHCNobre
@@ -8,7 +5,13 @@
 -->
 <html>
 
-	{% include head.html %}
+	<head>
+		<title> Inspire Terapia Integrativa</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
 
 	<body class="is-preload">
 
@@ -19,17 +22,20 @@
 					<header id="header" class="alt">
 						<span class="logo"><img src="images/logo.png" alt="" /></span>
 						<h1>Inspire Terapia Integrativa</h1>
-						<p>Cuido da sua saúde emocional e espiritual.<br />
+						<p>Cuide da sua saúde emocional e espiritual.<br />
 						Siga em nosso instagram <a href="https://www.instagram.com/terapia_inspire/">@terapia_inspire</a>.</p>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="#intro" class="active">Terapeuta</a></li>
-							<li><a href="#first">Terapia</a></li>
-							<li><a href="#second">Benefícios</a></li>
-							<li><a href="#cta">Agende agora!</a></li>
+							<li><a href="#" class="active">Início</a></li>
+							<li><a href="#Diego" class="active">Quem sou eu</a></li>
+							<li><a href="#Terapia">Terapia Integrativa</a></li>
+							<li><a href="#Agendar">Agendar</a></li>
+							<li><a href="#Logoterapia">Logoterapia</a></li>
+							<li><a href="#Testemunhos">Testemunhos</a></li>
+							
 						</ul>
 					</nav>
 
@@ -37,14 +43,14 @@
 					<div id="main">
 
 						<!-- Introduction -->
-							<section id="intro" class="main">
+							<section id="Diego" class="main">
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
 											<h2>Ola sou o Diego!</h2>
 										</header>
-										<p>Tenho 34 anos, moro em Araras-SP, sou o fundador da Inspire. Sou jornalista, filósofo, teólogo e estudante de Psicologia.
-											A formação acadêmica e a experiência de vida do Diego favorecerá um trabalho terapêutico voltado para escutar atenciosamente as angústias, os medos e as incertezas humanas, e aliviar os sofrimentos através de orientações que favoreçam a busca pelo sentido da vida.
+										<p>Formado em Jornalismo, Filosofia, Teologia, Coaching e estudante de Psicologia, trabalho, principalmente, com você que busca reduzir o seu nível de estresse, organizar a sua rotina, gerenciar o seu tempo para aumentar a sua produtividade, desempenho e qualidade de vida, focar no que realmente importa e eliminar as distrações, superar o medo e a ansiedade diante de uma tomada de decisão importante e desenvolver uma espiritualidade que alcance a harmonia e a paz interior. </p>
+										<p>	Há 15 anos compreendendo, analisando e treinando pessoas, quero compartilhar com você a minha experiência pessoal e profissional de aprimoramento na busca do autoconhecimento e do reconhecimento do meu propósito de vida que me faz ser resiliente e solidário diante dos obstáculos e a superar os desafios com paciência, sabedoria, coragem e determinação. 
 										</p>
 										<ul class="actions">
 											<li><a href="index.html" class="button">Me conheça</a></li>
@@ -55,35 +61,21 @@
 							</section>
 
 						<!-- First Section -->
-							<section id="first" class="main special">
+							<section id="Terapia" class="main special">
 								<header class="major">
 									<h2>O que e a Terapia Integrativa?</h2>
 									<p>A Terapia Integrativa é uma abordagem de análise existencia, inspirada na Logoterapia fundada por Viktor Frankl, que comprrende o ser humano na sua dimensão física, psíquica, emocional e espiritual, e tem como principios norteadores a buscca pelo sentido da vida apenas do sofrimento humano.
 										</p>
 								</header>
-								<p class="content">Um mundo cada vez mais agitado, com cobranças e informações chegando numa velocidade inacreditável faz com que a nossa saúde mental, emocional e espiritual seja altamente afetada.
-
-									E cuidar dela é um direito de todos: afinal, quem não preza por uma melhor qualidade de vida?
-									
-									Se você está adiando para marcar uma consulta por medo, insegurança ou “vergonha”, saiba que não precisa alimentar nenhum desses sentimentos!
-									
-									Afinal, a responsabilidade por cuidar de você, é sua! Então por que se importar com o que os outros vão dizer?</p>
-								
-							</section>
-
-						<!-- Second Section -->
-							<section id="second" class="main special">
-								<header class="major">
-									<h2>Benefícios</h2>									
-								</header>								
-								<p class="content">Uma pessoa que FAZ terapia, vive uma vida completamente diferente de uma pessoa que NÃO faz. Tudo fica mais leve, mais alegre. Terapia não deve ser luxo, mas o essencial e necessário para todas as pessoas.
-								</p>							
+								<p class="content">O Plano de Terapia tem como objetivo favorecer o desenvolvimento pessoal e espiritual em alta performance, identificando os pensamentos e atitudes da sua história de vida que te impedem de superar os conflitos para alcançar outro nível em sua vida, tornando-se mais produtiva, realizada e feliz.
+									</p>
 							</section>
 
 						<!-- Get Started -->
-							<section id="cta" class="main special">
+							<section id="Agendar" class="main special">
 								<header class="major">
 									<h2>Agende agora sua consulta</h2>
+									<h4>CUIDE DA SUA SAÚDE EMOCIONAL E ESPIRITUAL, E INSPIRE!</h4>
 									<p>Conflitos nos Relacionamentos, Ansiedade, Depressão e Procrastinação Sessões 
 										on-line ou presencial 👇🏻</p>
 								</header>
@@ -94,13 +86,43 @@
 								</footer>
 							</section>
 
+							<section id="Logoterapia" class="main special">
+								<header class="major">
+									<h2>Logoterapia</h2>
+									<p>A terapia além de possuir espaço para a aliviar a angústia e a dor, também abre possibilidade para que a pessoa consiga promover transformações internas através das intervenções do terapeuta. Com duração de 50 minutos, a terapia tem como foco a melhora da saúde emocional e espiritual. </p>
+								</header>
+							</section>
+
+							<section id="Testemunhos" class="main special">
+								<header class="major">
+									<h2>Testemunhos</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon solid major style1 fa-user"></span>
+										<h3>Nome Sobrenome</h3>
+										<p>Gostei da Terapia.</p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-user"></span>
+										<h3>Nome Sobrenome</h3>
+										<p>Gostei da Terapia.</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-user"></span>
+										<h3>Nome Sobrenome</h3>
+										<p>Gostei da Terapia.</p>
+									</li>
+								</ul>								
+							</section>
+
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
 							<a href="#intro"><h2>Inspire Terapia Integrativa</h2></a>
-							<p>Cuido da sua saúde emocional e espiritual.</p>
+							<p>Cuide da sua saúde emocional e espiritual.</p>
 						</section>
 						<section>
 							<h2>Contato e Local</h2>
