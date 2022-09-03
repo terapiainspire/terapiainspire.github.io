@@ -1986,6 +1986,77 @@ input, select, textarea {
 				color: #ffffff !important;
 			}
 
+	/* Novo bot */
+
+	input[type="submit"].whatsapp,
+	input[type="reset"].whatsapp,
+	input[type="button"].whatsapp,
+	button.whatsapp,
+	.button.whatsapp {
+		background-color: #34af23 ;
+		color: #34af23 !important;
+		box-shadow: none;
+	}
+
+		input[type="submit"].whatsapp:hover,
+		input[type="reset"].whatsapp:hover,
+		input[type="button"].whatsapp:hover,
+		button.whatsapp:hover,
+		.button.whatsapp:hover {
+			background-color: #9acff2;
+		}
+
+		input[type="submit"].whatsapp:active,
+		input[type="reset"].whatsapp:active,
+		input[type="button"].whatsapp:active,
+		button.whatsapp:active,
+		.button.whatsapp:active {
+			background-color: #7ec3ee;
+		}
+
+		input[type="submit"].whatsapp.icon:before,
+		input[type="reset"].whatsapp.icon:before,
+		input[type="button"].whatsapp.icon:before,
+		button.whatsapp.icon:before,
+		.button.whatsapp.icon:before {
+			color: #ffffff !important;
+		}
+
+
+		input[type="submit"].whatsapp,
+		input[type="reset"].whatsapp,
+	input[type="button"].whatsapp,
+	button.whatsapp,
+	.button.whatsapp {
+		background-color: #8cc9f0;
+		color: #ffffff !important;
+		box-shadow: none;
+	}
+
+		input[type="submit"].whatsapp:hover,
+		input[type="reset"].whatsapp:hover,
+		input[type="button"].whatsapp:hover,
+		button.whatsapp:hover,
+		.button.whatsapp:hover {
+			background-color: #9acff2;
+		}
+
+		input[type="submit"].whatsapp:active,
+		input[type="reset"].whatsapp:active,
+		input[type="button"].whatsapp:active,
+		button.whatsapp:active,
+		.button.whatsapp:active {
+			background-color: #7ec3ee;
+		}
+
+		input[type="submit"].whatsapp.icon:before,
+		input[type="reset"].whatsapp.icon:before,
+		input[type="button"].whatsapp.icon:before,
+		button.whatsapp.icon:before,
+		.button.whatsapp.icon:before {
+			color: #ffffff !important;
+		}
+
 /* Form */
 
 	form {
@@ -3439,6 +3510,52 @@ input, select, textarea {
 				#main .button.primary.icon:before {
 					color: #ffffff !important;
 				}
+
+				/*Main  Novo bot */
+				#main input[type="submit"].whatsapp,
+				#main input[type="reset"].whatsapp,
+				#main input[type="button"].whatsapp,
+				#main button.whatsapp,
+				#main .button.whatsapp {
+					background-color: #34af23 ;
+					color: #ffffff !important;
+					box-shadow: none;
+				}
+	
+					#main input[type="submit"].whatsapp:hover,
+					#main input[type="reset"].whatsapp:hover,
+					#main input[type="button"].whatsapp:hover,
+					#main button.whatsapp:hover,
+					#main .button.whatsapp:hover {
+						background-color: #7fd974 ;
+					}
+	
+					#main input[type="submit"].whatsapp:active,
+					#main input[type="reset"].whatsapp:active,
+					#main input[type="button"].whatsapp:active,
+					#main button.whatsapp:active,
+					#main .button.whatsapp:active {
+						background-color: #34af23  ;
+					}
+	
+					#main input[type="submit"].whatsapp.icon:before,
+					#main input[type="reset"].whatsapp.icon:before,
+					#main input[type="button"].whatsapp.icon:before,
+					#main button.whatsapp.icon:before,
+					#main .button.whatsapp.icon:before {
+						color: #ffffff !important;
+					}
+
+				/*Fim  Novo bot */
+			#main input[type="submit"].pessoas,
+			#main input[type="reset"].pessoas,
+			#main input[type="image"].pessoas,
+			#main image.pessoas,
+			.image.pessoas { 
+				display: block; 
+				width: 10px;
+			}
+				
 
 		#main label {
 			color: #636363;
