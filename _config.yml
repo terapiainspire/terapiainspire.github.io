@@ -34,3 +34,15 @@ compress_html: # - http://jch.penibelst.de/
 port: 4000
 host: 0.0.0.0
 safe: false
+
+
+lsi: false
+safe: true
+source: 'https://github.com/inspireterapia/inspireterapia.github.io'
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
