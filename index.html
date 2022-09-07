@@ -1,27 +1,34 @@
----
-layout: default
----
-<!-- Header -->
-<header id="header" class="alt">
-	<span class="logo"><img src="images/logo.png" alt="" /></span>
-	<h1>Inspire Terapia Integrativa</h1>
-	<p>
-		Cuide da sua saúde emocional e espiritual.<br />
-		Siga em nosso instagram <a href="https://www.instagram.com/terapia_inspire/">@terapia_inspire</a>.
-	</p>
-</header>
+<!DOCTYPE HTML>
+<!--
+	Feito com <3 pelo FabioHCNobre
+	Saiba mais !
+-->
+<html lang="pt-br">
 
-<!-- Nav -->
-<nav id="nav">
-	<ul>
-		<li><a href="#Inspire" class="active">Inspire</a></li>
-		<li><a href="#Diego" >Quem sou eu</a></li>
-		<li><a href="#Terapia">Terapia </a></li>
-		<li><a href="#Agendar">Agendar</a></li>
-		<li><a href="#Logoterapia">Logoterapia</a></li>
-		<li><a href="#Planos">Planos</a></li>
-	</ul>
-</nav>
+<!-- head -->	
+{% include head.html %}
+
+<body class="is-preload">
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MC6VDTV"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+	<!-- Nav -->
+	<nav id="nav">
+		<ul>
+			<li><a href="#Inspire" class="active">Inspire</a></li>
+			<li><a href="#Diego" >Quem sou eu</a></li>
+			<li><a href="#Terapia">Terapia </a></li>
+			<li><a href="#Agendar">Agendar</a></li>
+			<li><a href="#Logoterapia">Logoterapia</a></li>
+			<li><a href="#Planos">Planos</a></li>
+		</ul>
+	</nav>
 
 <!-- Main -->
 <div id="main">
@@ -146,3 +153,15 @@ layout: default
 		A terapia além de possuir espaço para a aliviar a angústia e a dor, também abre possibilidade para que a pessoa consiga promover transformações internas através das intervenções do terapeuta. Com duração de 50 minutos, a terapia tem como foco a melhora da saúde emocional e espiritual.
 	</p>
 </section>
+
+
+		<!-- Footer -->
+		{% include footer.html %}
+
+	</div>
+
+	<!-- Scripts -->	
+	{% include scripts.html %}
+
+</body>
+</html>
