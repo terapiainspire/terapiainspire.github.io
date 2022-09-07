@@ -1,48 +1,14 @@
-#Update all the sections by editing the data.yml file inside _data folder.
+title: Inspire Terapia Integrativa # your name (or website title) here
+logo: "logo.png?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  Cuido da sua saúde emocional e espiritual 
+  <br><br>
+  Conflitos nos Relacionamentos, Ansiedade, Depressão e Procrastinação
+  Sessões on-line ou presencial 👇🏻
+  <br><br>
+  <a href="https://beacons.ai/aconsultoriainspire">beacons.ai/aconsultoriainspire</a> 
+  
+instagram: terapia_inspire
 
-# Site Settings
-title: Terapia Inspire
-url: 'https://terapiainspire.com.br/'
-
-#change it according to your repository name
-# disabling since we are using a custom domain
-baseurl: '/inspireterapia.github.io' 
-
-description: Teste
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: blue # blue turquoise green berry orange ceramic
-chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
-
-# Tracker
-analytics: G-HCHGR8VDSX
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-# Build settings
-compress-site: yes
-
-encoding: "UTF-8"
-compress_html: # - http://jch.penibelst.de/
-  clippings: all
-  ignore:
-    envs: development
-
-# Development Settings
-port: 4000
-host: 0.0.0.0
-safe: false
-
-
-lsi: false
-safe: true
-source: 'https://github.com/inspireterapia/inspireterapia.github.io'
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+theme: jekyll-theme-minimal
+google_analytics: UA-000000-0 # your Google Analytics tracking ID here

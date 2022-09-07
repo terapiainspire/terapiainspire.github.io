@@ -1,23 +1,7 @@
-<!-- Footer -->
-<footer id="footer">
-    <section>
-        <a href="#intro"><h2>Inspire Terapia Integrativa</h2></a>
-        <p>Cuide da sua saúde emocional e espiritual.</p>
-    </section>
-    <section>
-        <h2>Contato e Local</h2>
-        <dl class="alt">
-            <dt>Endereço</dt>
-            <dd>Rua 7 de setembro, 666 - Centro &bull; Araras, SP  &bull;</dd>
-            <dt>Telefone</dt>
-            <dd><a href="https://api.whatsapp.com/send/?phone=5519971564256&text&app_absent=0">(19) 97156-4256</a></dd>
-            <dt>Email</dt>
-            <dd><a href="mailto:aconsultoriainspire@gmail.com">aconsultoriainspire@gmail.com</a></dd>
-        </dl>
-        <ul class="icons"> 
-            <li><a href="https://www.instagram.com/terapia_inspire/" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-            <li><a href="https://api.whatsapp.com/send/?phone=5519971564256&text&app_absent=0" class="icon brands fa-whatsapp alt"><span class="label">WhatsApp</span></a></li>  
-        </ul>
-    </section>
-    <p class="copyright">&copy; &copy; Feito com <i class="fas fa-heart"></i> pelo <a href="https://github.com/fabiohcnobre" target="_blank" rel="nofollow">FabioHCNobre</a></a>.</p>
+<footer class="footer">
+    {% if site.github.is_project_page %}
+    <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+    {% endif %}
+    <p><small>Hospedado no GitHub Pages &mdash;</small></p>
+    <p><small>Feito com <i class="fas fa-heart"></i> pelo <a href="https://github.com/fabiohcnobre" target="_blank" rel="nofollow">FabioHCNobre</a></small></p>
 </footer>
