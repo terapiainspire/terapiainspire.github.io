@@ -6,7 +6,7 @@ url: 'https://terapiainspire.com.br/'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
-#baseurl: '/online-cv' 
+baseurl: '/inspireterapia.github.io' 
 
 description: Teste
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
