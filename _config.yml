@@ -15,10 +15,6 @@ instagram: terapia_inspire
 
 # Tracker
 analytics: G-HCHGR8VDSX
-
-  chain_folder:
-    allowed_files:
-      - "assets"
       
 sass:
   sass_dir: _sass
