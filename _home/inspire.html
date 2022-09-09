@@ -1,0 +1,12 @@
+{% assign empresa = site.data.data.empresa %}
+<section id="Inspire" class="main special">
+    <header class="major">
+        <h2>{{ empresa.nome }}</h2>					
+    </header>
+    <p class="content">			
+        {{ empresa.detalhes | markdownify }}		
+    </p>
+    <ul class="actions">
+        <li><a href="inspire" class="button">BENEFÍCIOS</a></li>
+    </ul>
+</section>
