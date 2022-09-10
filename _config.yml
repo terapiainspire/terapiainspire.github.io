@@ -5,17 +5,14 @@ url: 'https://terapiainspire.com.br/'
 logo: "logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Terapia Inspire
-  Cuido da sua saúde emocional e espiritual 
-  <br><br>
-  Conflitos nos Relacionamentos, Ansiedade, Depressão e Procrastinação
-  Sessões on-line ou presencial 👇🏻
-  <br><br>
-  <a href="https://beacons.ai/aconsultoriainspire">beacons.ai/aconsultoriainspire</a> 
+  Cuido da sua saúde emocional e espiritual Conflitos nos Relacionamentos, Ansiedade, Depressão e Procrastinação
+  Sessões on-line ou presencial 
   
 instagram: terapia_inspire
 
 plugins:
-  - jekyll-seo-tag
+  - jekyll-seo-taggem 'jekyll-seo-tag'
+
 
 # Tracker
 analytics: G-HCHGR8VDSX
