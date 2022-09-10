@@ -11,8 +11,7 @@ description: > # your text below (remove <br> elements if you don't need line br
 instagram: terapia_inspire
 
 plugins:
-  - jekyll-seo-taggem 'jekyll-seo-tag'
-
+  - jekyll-seo-tag
 
 # Tracker
 analytics: G-HCHGR8VDSX

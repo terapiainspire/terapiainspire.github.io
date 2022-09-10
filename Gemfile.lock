@@ -367,6 +367,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
+  jekyll-seo-tag
   rails
   webrick (~> 1.7)
 
