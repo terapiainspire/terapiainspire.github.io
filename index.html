@@ -1,23 +1,9 @@
 ---
 layout: default
 ---
-	<header id="header" class="alt">
-		<span class="logo"><img src="images/logo.png" alt="" /></span>
-		<h1>Inspire Terapia Integrativa</h1>
-		<p>Cuide da sua saúde emocional e espiritual.<br />
-		Siga em nosso instagram <a href="https://www.instagram.com/terapia_inspire/">@terapia_inspire</a>.</p>
-	</header>
+	{% include_relative  _home/header.html %}
 
-	<nav id="nav">
-		<ul>
-			<li><a href="#Inspire" class="active">Inspire</a></li>
-			<li><a href="#Diego" >Quem sou eu</a></li>
-			<li><a href="#Terapia">Terapia </a></li>
-			<li><a href="#Agendar">Agendar</a></li>
-			<li><a href="#Logoterapia">Logoterapia</a></li>
-			<li><a href="#Planos">Planos</a></li>
-		</ul>
-	</nav>
+	{% include_relative  _home/nav.html %}
 
 	<div id="main">
 

@@ -4,11 +4,14 @@ title: Terapia Inspire
 url: 'https://terapiainspire.com.br/'
 logo: "logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Terapia Inspire
   Cuido da sua saúde emocional e espiritual Conflitos nos Relacionamentos, Ansiedade, Depressão e Procrastinação
   Sessões on-line ou presencial 
   
 instagram: terapia_inspire
+social:
+  name: terapia_inspire
+  links:
+    - https://instagram.com/terapia_inspire 
 
 plugins:
   - jekyll-seo-tag
