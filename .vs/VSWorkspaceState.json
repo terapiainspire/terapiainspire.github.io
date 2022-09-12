@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\_includes"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\_includes\\head.html",
   "PreviewInSolutionExplorer": false
 }
