@@ -2,10 +2,21 @@
 # Site Settings
 title: Terapia Inspire
 url: 'terapiainspire.com.br'
-logo: "logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  Cuido da sua saúde emocional e espiritual Conflitos nos Relacionamentos, Ansiedade, Depressão e Procrastinação
+logo: "/images/logo.png" # your photo (or logo) here
+description: Cuido da sua saúde emocional e espiritual Conflitos nos Relacionamentos, Ansiedade, Depressão e Procrastinação
   Sessões on-line ou presencial.
+
+tagline:  Terapia Inspire Diego Santos Araras.
+
+google_site_verification: # https://search.google.com/search-console?resource_id=sc-domain%3Acelebrantedsantos.com.br
+
+locale: pt_BR #en_US
+
+
+author:
+  name: Terapia Inspire
+  url: https://terapiainspire.com.br/
+
   
 instagram: terapia_inspire
 social:
