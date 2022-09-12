@@ -18,6 +18,7 @@ plugins:
 
 # Tracker
 analytics: G-HCHGR8VDSX
+adsgoogle: UA-240366032-1
       
 sass:
   sass_dir: _sass
