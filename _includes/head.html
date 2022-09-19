@@ -14,6 +14,12 @@
 	<meta name="google-site-verification" content="zrFrEbZsiJ_Z5r6tov77OLog30GuCw_zJdMkF-W4YlQ">
     <meta name="robots" content="all">
 
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="http://{{ site.url }}{{ site.logo }}">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -26,6 +32,8 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-MC6VDTV');</script>
     <!-- End Google Tag Manager -->
+
+
     
     {% seo %}
 
