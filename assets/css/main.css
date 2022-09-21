@@ -2708,7 +2708,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin-bottom: 3em;
+		margin-bottom: 0em;
 	}
 
 		header.major h2 {
@@ -2773,7 +2773,7 @@ input, select, textarea {
 	}
 
 	header.major h2:after {
-		background-color: rgba(255, 255, 255, 0.35);
+		background-color: #55A3BA;
 	}
 
 /* Table */
@@ -3148,7 +3148,7 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			margin: 0 0 0.25em 0;
+			margin: 0 0 0 0;
 		}
 
 		#header p {
@@ -3186,7 +3186,7 @@ input, select, textarea {
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				display: block;
-				margin: 0 0 1.5em 0;
+				margin: 0 0 0 0;
 			}
 
 				#header.alt .logo img {
