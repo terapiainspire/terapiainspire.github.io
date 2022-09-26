@@ -3546,6 +3546,76 @@ input, select, textarea {
 						color: #ffffff !important;
 					}
 
+					/*Main  Novo botao telegram */
+				#main input[type="submit"].telegram,
+				#main input[type="reset"].telegram,
+				#main input[type="button"].telegram,
+				#main button.telegram,
+				#main .button.telegram {
+					background-color: #0088CC ;
+					color: #ffffff !important;
+					box-shadow: none;
+				}
+	
+					#main input[type="submit"].telegram:hover,
+					#main input[type="reset"].telegram:hover,
+					#main input[type="button"].telegram:hover,
+					#main button.telegram:hover,
+					#main .button.telegram:hover {
+						background-color: #0088CC ;
+					}
+	
+					#main input[type="submit"].telegram:active,
+					#main input[type="reset"].telegram:active,
+					#main input[type="button"].telegram:active,
+					#main button.telegram:active,
+					#main .button.telegram:active {
+						background-color: #0088CC  ;
+					}
+	
+					#main input[type="submit"].telegram.icon:before,
+					#main input[type="reset"].telegram.icon:before,
+					#main input[type="button"].telegram.icon:before,
+					#main button.telegram.icon:before,
+					#main .button.telegram.icon:before {
+						color: #ffffff !important;
+					}
+
+					/*Main  Novo botao instagram */
+				#main input[type="submit"].instagram,
+				#main input[type="reset"].instagram,
+				#main input[type="button"].instagram,
+				#main button.instagram,
+				#main .button.instagram {
+					background-color: #3f729b  ;
+					color: #ffffff !important;
+					box-shadow: none;
+				}
+	
+					#main input[type="submit"].instagram:hover,
+					#main input[type="reset"].instagram:hover,
+					#main input[type="button"].instagram:hover,
+					#main button.instagram:hover,
+					#main .button.instagram:hover {
+						background-color: #3f729b  ;
+					}
+	
+					#main input[type="submit"].instagram:active,
+					#main input[type="reset"].instagram:active,
+					#main input[type="button"].instagram:active,
+					#main button.instagram:active,
+					#main .button.instagram:active {
+						background-color: #3f729b   ;
+					}
+	
+					#main input[type="submit"].instagram.icon:before,
+					#main input[type="reset"].instagram.icon:before,
+					#main input[type="button"].instagram.icon:before,
+					#main button.instagram.icon:before,
+					#main .button.instagram.icon:before {
+						color: #ffffff !important;
+					}
+
 				/*Fim  Novo bot */
 			#main input[type="submit"].pessoas,
 			#main input[type="reset"].pessoas,
