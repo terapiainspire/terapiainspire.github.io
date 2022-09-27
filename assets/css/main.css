@@ -3970,3 +3970,14 @@ input, select, textarea {
 			}
 
 		}
+
+
+		/* post-list-heading */
+
+	#post-list-heading {
+		display: none;
+	}
+
+	#rss-subscribe {
+		display: none;
+	}
