@@ -3631,6 +3631,10 @@ input, select, textarea {
 		#main .rss-subscribe {
 			display: none;
 		}
+		/*Fim  post-list-heading- */
+		#main .post-list-heading {
+			display: none;
+		}
 
 		#main label {
 			color: #636363;
@@ -3975,14 +3979,3 @@ input, select, textarea {
 			}
 
 		}
-
-
-		/* post-list-heading */
-
-	#post-list-heading {
-		display: none;
-	}
-
-	#rss-subscribe {
-		display: none;
-	}
