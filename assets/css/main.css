@@ -3406,24 +3406,24 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
-		color: #636363;
+		color: #55A3BA;
 		border-radius: 0.25em;
 	}
 
 		#main input, #main select, #main textarea {
-			color: #636363;
+			color: #55A3BA;
 		}
 
 		#main a:hover {
-			color: #636363;
+			color: #55A3BA;
 		}
 
 		#main strong, #main b {
-			color: #636363;
+			color: #55A3BA;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color: #55A3BA;
 		}
 
 		#main blockquote {
@@ -3625,7 +3625,12 @@ input, select, textarea {
 				display: block; 
 				width: 10px;
 			}
-				
+			
+
+		/*Fim  rss- */
+		#main .rss-subscribe {
+			display: none;
+		}
 
 		#main label {
 			color: #636363;
