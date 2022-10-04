@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://terapiainspire.com.br/index.html</loc>
-    <lastmod>2022-09-21</lastmod>
+    <lastmod>2022-10-04</lastmod>
     <changefreq>always</changefreq>
   </url>
   <url>
     <loc>https://terapiainspire.com.br/inspire.html</loc>
     <lastmod>2022-09-21</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://terapiainspire.com.br/agenda.html</loc>
+    <lastmod>2022-10-04</lastmod>
     <changefreq>always</changefreq>
   </url>
 </urlset>
