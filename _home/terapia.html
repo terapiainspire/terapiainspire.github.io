@@ -1,11 +1,9 @@
+{% assign terapia = site.data.data.terapia %}
 <section id="Terapia" class="main special">
     <header class="major">
-    <h2>O que e a Terapia Integrativa?</h2>
+        <h2>  {{ terapia.title }} </h2>	
     <p>
-    A Terapia Integrativa é uma abordagem de análise existencia, inspirada na Logoterapia fundada por Viktor Frankl, que comprrende o ser humano na sua dimensão física, psíquica, emocional e espiritual, e tem como principios norteadores a buscca pelo sentido da vida apenas do sofrimento humano.
+        {{ terapia.detalhes | markdownify }}
     </p>
-    </header>
-    <p class="content">
-    O Plano de Terapia tem como objetivo favorecer o desenvolvimento pessoal e espiritual em alta performance, identificando os pensamentos e atitudes da sua história de vida que te impedem de superar os conflitos para alcançar outro nível em sua vida, tornando-se mais produtiva, realizada e feliz.
-    </p>
+    </header>   
     </section>

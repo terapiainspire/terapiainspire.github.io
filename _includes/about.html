@@ -1,15 +1,12 @@
-<!-- Introduction -->
+{% assign about = site.data.data.about %}
 <section id="Diego" class="main">
 	<div class="spotlight">
 		<div class="content">
 			<header class="major">
-				<h2>Ola sou o Diego!</h2>
+				<h2>{{ about.title }}</h2>
 			</header>
-			<p>Formado em Jornalismo, Filosofia, Teologia, Coaching e estudante de Psicologia, trabalho, principalmente, com você que busca reduzir o seu nível de estresse, organizar a sua rotina, gerenciar o seu tempo para aumentar a sua produtividade, desempenho e qualidade de vida, focar no que realmente importa e eliminar as distrações, superar o medo e a ansiedade diante de uma tomada de decisão importante e desenvolver uma espiritualidade que alcance a harmonia e a paz interior. </p>
-			<p>
-				Há 15 anos compreendendo, analisando e treinando pessoas, quero compartilhar com você a minha experiência pessoal e profissional de aprimoramento na busca do autoconhecimento e do reconhecimento do meu propósito de vida que me faz ser resiliente e solidário diante dos obstáculos e a superar os desafios com paciência, sabedoria, coragem e determinação.
-			</p>						
+			<p>{{ about.detalhes | markdownify }}</p>
 		</div>
-		<span class="image"><img src="images/diego.jpg" alt="" /></span>
+		<span class="image"><img src="{{ about.imagem }}" alt="" /></span>
 	</div>
 </section>
