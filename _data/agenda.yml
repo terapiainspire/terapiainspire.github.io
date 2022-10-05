@@ -1,0 +1,22 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+agenda:
+  title: Agenda 2022
+  compromisso:
+  - nome: 💟 1º Workshop
+    detalhes: |
+               Tema: “Não aceite migalhas: resgatando o amor-próprio”.
+               Dia: 13/10/22 às 20h (on-line)				
+               Acesso: Google Meet
+               Investimento: R$ 20,00 por pessoa	 
+
+  - nome: 💟 CAFÉ TERAPIA
+    detalhes: |
+               Tema: “Escolho me amar. Eu mereço mais”.
+                Dia: 22/10/2022 das 15 às 18h (presencial)				
+                Dia 22/10/22 das 15h às 18h		
+                Local: Círculo dos trabalhadores cristãos
+                Rua Coronel Antônio, 81. Boa Vista - Limeira - SP
+                Fazer inscrição de 13 a 20/10 pelo link que será disponibilizado aqui.
+                Investimento: R$ 40,00 por pessoa

@@ -1,15 +1,15 @@
+{% assign planos = site.data.data.planos %}
 <section id="Planos" class="main special">
 	<header class="major">
-		<h2>Planos</h2>					
+		<h2>  {{ planos.title }} </h2>					
 	</header>
 
-	<h4>&bull; ACOLHIMENTO &bull; </h4>
-	<p>
-		As sessões de acolhimento terapêutico têm o objetivo de trazer alívio das angústias e tensões. Com duração de 30 minutos, pode ser realizada mais de uma vez caso a pessoa sinta necessidade. Porém, é importante conversar com o terapeuta para definir a melhor direção.  
-	</p>
-
-	<h4>&bull; TERAPIA INTEGRATIVA &bull; </h4>
-	<p>
-		A terapia além de possuir espaço para a aliviar a angústia e a dor, também abre possibilidade para que a pessoa consiga promover transformações internas através das intervenções do terapeuta. Com duração de 50 minutos, a terapia tem como foco a melhora da saúde emocional e espiritual.
-	</p>
+	<div class="row">
+		{% for plano in planos.plano %}
+        <div class="col-6 col-12-medium">
+			<h4>&bull; {{ plano.nome }} &bull; </h4>
+			<p> {{ plano.detalhes | markdownify }}</p>
+		</div>
+		{% endfor %}
+	</div>	
 </section>
