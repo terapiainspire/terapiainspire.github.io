@@ -9,8 +9,8 @@ Disallow: /_partials*
 Disallow: /pro-gallery-webapp/v1/galleries/*
 
 # Block PetalBot
-User-agent: PetalBot
-Disallow: /
+#User-agent: PetalBot
+# Disallow: /
 
 Sitemap: http://terapiainspire.com.br/sitemap.xml
 
