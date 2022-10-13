@@ -3788,15 +3788,15 @@ input, select, textarea {
 			#main > .main > .image.main:first-child {
 				margin: -5em 0 0 -5em;
 				width: calc(100% + 10em);
-				border-top-right-radius: 0.25em;
-				border-top-left-radius: 0.25em;
+				border-top-right-radius: 0;
+				border-top-left-radius: 0;
 				border-bottom-right-radius: 0;
 				border-bottom-left-radius: 0;
 			}
 
 				#main > .main > .image.main:first-child img {
-					border-top-right-radius: 0.25em;
-					border-top-left-radius: 0.25em;
+					border-top-right-radius: 0;
+					border-top-left-radius: 0;
 					border-bottom-right-radius: 0;
 					border-bottom-left-radius: 0;
 				}
