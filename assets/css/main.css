@@ -2479,10 +2479,12 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 0 0;
 			width: 100%;
+			border-radius: 0;
 		}
 
 			.image.main img {
 				width: 100%;
+				border-radius: 0;
 			}
 
 /* List */
@@ -3792,6 +3794,7 @@ input, select, textarea {
 				border-top-left-radius: 0;
 				border-bottom-right-radius: 0;
 				border-bottom-left-radius: 0;
+				border-radius: 0;
 			}
 
 				#main > .main > .image.main:first-child img {
@@ -3799,6 +3802,7 @@ input, select, textarea {
 					border-top-left-radius: 0;
 					border-bottom-right-radius: 0;
 					border-bottom-left-radius: 0;
+					border-radius: 0;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3810,6 +3814,7 @@ input, select, textarea {
 				#main > .main > .image.main:first-child {
 					margin: -4em 0 0 -4em;
 					width: calc(100% + 8em);
+					border-radius: 0;
 				}
 
 		}
@@ -3823,6 +3828,7 @@ input, select, textarea {
 				#main > .main > .image.main:first-child {
 					margin: -4em 0 0 -3em;
 					width: calc(100% + 6em);
+					border-radius: 0;
 				}
 
 		}
@@ -3836,6 +3842,7 @@ input, select, textarea {
 				#main > .main > .image.main:first-child {
 					margin: -3em 0 0 -2em;
 					width: calc(100% + 4em);
+					border-radius: 0;
 				}
 
 		}
@@ -3849,6 +3856,7 @@ input, select, textarea {
 				#main > .main > .image.main:first-child {
 					margin: -3em 0 0 -1.5em;
 					width: calc(100% + 3em);
+					border-radius: 0;
 				}
 
 		}
