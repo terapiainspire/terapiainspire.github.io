@@ -3,19 +3,25 @@
 #
 agenda:
   title: Agenda 2022
+  visible: true
+  imagem: images/cafeterapia1.jpg
   compromisso:
   - title: 💟 1º Workshop
-    botaohref: https://docs.google.com/forms/d/e/1FAIpQLSfKdaWMSKDxQqARaUdrfcA4nC5nxnTysoB8O3tEZ6sOCnrrBw/viewform
-    botaotitulo: Incrição do Workshop    
+    botaohref: agenda
+    botaotitulo: Veja mais - Agenda 
+    date: 2022-10-13  
+    visible: true
     detalhes: |
-               Tema: “Não aceite migalhas: resgatando o amor-próprio”.\
-               Dia: 13/10/22 às 20h (on-line)\
-               Acesso: Google Meet\
-               Investimento: R$ 20,00 por pessoa
+               ~~Tema: “Não aceite migalhas: resgatando o amor-próprio”.~~ \
+               ~~Dia: 13/10/22 às 20h~~ (**Realizado**) \
+               ~~Acesso: Google Meet~~ \
+               ~~Investimento: R$ 20,00 por pessoa~~
 
   - title: 💟 CAFÉ TERAPIA
-    botaohref: agenda
-    botaotitulo: Saiba mais da Agenda
+    botaohref: https://docs.google.com/forms/d/1owfXi-PxdPPDlgrMqoozjrYQzH93j40-VzpUmZ_Jz3s/
+    date: 2022-10-22
+    visible: true
+    botaotitulo: Incrição do Café Terapia
     detalhes: |
                Tema: “Escolho me amar. Eu mereço mais”.\
                Dia: 22/10/2022 das 15 às 18h (presencial)\
