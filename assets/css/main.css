@@ -2477,7 +2477,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
+			margin: 0 0 0 0;
 			width: 100%;
 		}
 
@@ -2784,7 +2784,7 @@ input, select, textarea {
 	}
 
 	table {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		width: 100%;
 	}
 
@@ -2801,7 +2801,7 @@ input, select, textarea {
 		table th {
 			font-size: 0.9em;
 			font-weight: 400;
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0 0.75em 0 0.75em;
 			text-align: left;
 		}
 
@@ -3777,7 +3777,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 5em 5em 0 5em ;
 			border-top: solid 1px #dddddd;
 		}
 
@@ -3786,7 +3786,7 @@ input, select, textarea {
 			}
 
 			#main > .main > .image.main:first-child {
-				margin: -5em 0 5em -5em;
+				margin: -5em 0 0 -5em;
 				width: calc(100% + 10em);
 				border-top-right-radius: 0.25em;
 				border-top-left-radius: 0.25em;
@@ -3808,7 +3808,7 @@ input, select, textarea {
 			}
 
 				#main > .main > .image.main:first-child {
-					margin: -4em 0 4em -4em;
+					margin: -4em 0 0 -4em;
 					width: calc(100% + 8em);
 				}
 
@@ -3821,7 +3821,7 @@ input, select, textarea {
 			}
 
 				#main > .main > .image.main:first-child {
-					margin: -4em 0 4em -3em;
+					margin: -4em 0 0 -3em;
 					width: calc(100% + 6em);
 				}
 
@@ -3834,7 +3834,7 @@ input, select, textarea {
 			}
 
 				#main > .main > .image.main:first-child {
-					margin: -3em 0 2em -2em;
+					margin: -3em 0 0 -2em;
 					width: calc(100% + 4em);
 				}
 
@@ -3847,7 +3847,7 @@ input, select, textarea {
 			}
 
 				#main > .main > .image.main:first-child {
-					margin: -3em 0 1.5em -1.5em;
+					margin: -3em 0 0 -1.5em;
 					width: calc(100% + 3em);
 				}
 
@@ -3864,7 +3864,7 @@ input, select, textarea {
 				}
 
 					#main > .main > .image.main:first-child {
-						margin: -2.5em 0 1.5em -1em;
+						margin: -2.5em 0 0 -1em;
 						width: calc(100% + 2em);
 						border-radius: 0;
 					}
