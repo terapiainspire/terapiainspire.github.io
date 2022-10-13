@@ -10,7 +10,7 @@ agenda:
     botaohref: agenda
     botaotitulo: Veja mais - Agenda 
     date: 2022-10-13  
-    visible: true
+    visible: false
     detalhes: |
                ~~Tema: “Não aceite migalhas: resgatando o amor-próprio”.~~ \
                ~~Dia: 13/10/22 às 20h~~ (**Realizado**) \
