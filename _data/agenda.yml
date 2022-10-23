@@ -3,7 +3,7 @@
 #
 agenda:
   title: Agenda 2022
-  visible: true
+  visible: false
   imagem: images/cafeterapia1.jpg
   compromisso:
   - title: 💟 1º Workshop
