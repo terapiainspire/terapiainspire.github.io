@@ -20,7 +20,7 @@ agenda:
   - title: 💟 CAFÉ TERAPIA
     botaohref: https://docs.google.com/forms/d/1owfXi-PxdPPDlgrMqoozjrYQzH93j40-VzpUmZ_Jz3s/
     date: 2022-10-22
-    visible: true
+    visible: false
     botaotitulo: Incrição do Café Terapia
     detalhes: |
                Tema: “Escolho me amar. Eu mereço mais”.\
