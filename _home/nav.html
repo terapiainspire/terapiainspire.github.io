@@ -1,10 +1,16 @@
+
+{% assign agenda = site.data.agenda.agenda %}
+
 <nav id="nav">
     <ul>
         <li><a href="#Inspire" class="active">Inspire</a></li>
         <li><a href="#Diego" >Quem sou eu</a></li>
         <li><a href="#Terapia">Terapia </a></li>
-        <li><a href="#Agendar">Agendar</a></li>
+        {% if agenda.visible %}
+        <li><a href="#Eventos">Eventos</a></li>
+        {% endif %}
         <li><a href="#Logoterapia">Logoterapia</a></li>
         <li><a href="#Planos">Planos</a></li>
+        <li><a href="#Agendar">Agendar</a></li>
     </ul>
 </nav>

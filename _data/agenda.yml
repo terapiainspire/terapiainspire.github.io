@@ -1,8 +1,8 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Data do Eventos
 #
 agenda:
-  title: Agenda 2022
+  title: Eventos de Novembro - 2022
   visible: true
   imagem: images/Workshop2.jpg
   compromisso:
@@ -36,7 +36,8 @@ agenda:
     date: 2022-11-02 
     visible: true
     detalhes: |
-               Tema: Você está passando pelo luto ou conhece alguém que está vivendo este momento da vida? \
+               Tema:  “Viva o luto para depois não viver na dor.” \
+                  Você está passando pelo luto ou conhece alguém que está vivendo este momento da vida? \
                   Chegou o momento de conversarmos sobre o luto e desenvolvermos habilidades de como superarmos essas fases de maneira leve e eficiente.
                   Faça a sua inscrição e tire todas as suas dúvidas sobre esse tema comigo! \
                   Vale muito a pena participar! \
