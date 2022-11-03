@@ -3,8 +3,8 @@
 #
 agenda:
   title: Eventos de Novembro - 2022
-  visible: false
-  imagem: images/Workshop2.jpg
+  visible: true
+  imagem: images/cafeterapia2.jpg
   compromisso:
   - title: 💟 1º Workshop
     botaohref: agenda
@@ -44,3 +44,16 @@ agenda:
                Dia: **02/11/22 às 20h** \
                Acesso: **Google Meet** \
                Investimento: **R$ 20,00 por pessoa**
+
+    - title: 💟2º CAFÉ TERAPIA 
+    botaohref: https://forms.gle/Dx2JG6FKhYDfvgwM8
+    date: 2022-11-19
+    visible: true
+    botaotitulo: Incrição do Café Terapia
+    detalhes: |
+               Tema: “Liberte-se do passado para seguir em frente.”.\
+               Dia: 22/10/2022 das 15 às 18h (presencial)\
+               Local: Círculo dos trabalhadores cristãos\
+               Rua Coronel Antônio, 81. Boa Vista - Limeira - SP\               
+               Faça a inscrição no link até dia 17/11. \
+               Aprenda a vencer o sofrimento com as perdas da vida, respeitando seus sentimentos, e ressignifique a dor e se reaproxime de Deus.
