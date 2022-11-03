@@ -3,7 +3,7 @@
 #
 agenda:
   title: Eventos de Novembro - 2022
-  visible: true
+  visible: false
   imagem: images/Workshop2.jpg
   compromisso:
   - title: 💟 1º Workshop
@@ -34,7 +34,7 @@ agenda:
     botaohref: https://forms.gle/KLzfLoZBoNb93bhB6 
     botaotitulo:  Incrição Apertando Aqui
     date: 2022-11-02 
-    visible: true
+    visible: false
     detalhes: |
                Tema:  “Viva o luto para depois não viver na dor.” \
                   Você está passando pelo luto ou conhece alguém que está vivendo este momento da vida? \
