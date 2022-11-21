@@ -3,7 +3,7 @@
 #
 agenda:
   title: Eventos de Novembro - 2022
-  visible: true
+  visible: false
   imagem: images/cafeterapia2.jpg
   compromisso:
   - title: 💟 1º Workshop
@@ -48,7 +48,7 @@ agenda:
   - title:  2º CAFÉ TERAPIA 
     botaohref: https://forms.gle/Dx2JG6FKhYDfvgwM8
     date: 2022-11-19
-    visible: true
+    visible: false
     botaotitulo: Incrição do Café Terapia
     detalhes: |
                **Tema:** “Reencontro com a vida: vença o luto através do único remédio”.\
