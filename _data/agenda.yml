@@ -2,9 +2,9 @@
 # Data do Eventos
 #
 agenda:
-  title: Eventos de Novembro - 2022
-  visible: false
-  imagem: images/cafeterapia2.jpg
+  title: Eventos de Dezembro - 2022
+  visible: true
+  imagem: images/cursoonline.jfif
   compromisso:
   - title: 💟 1º Workshop
     botaohref: agenda
@@ -58,3 +58,21 @@ agenda:
                *Faça a inscrição no link até dia 17/11.* \
                Liberte-se do passado para seguir em frente. \
                Aprenda a vencer o sofrimento com as perdas da vida, respeitando seus sentimentos, e ressignifique a dor e se reaproxime de Deus.
+  
+  - title:  Curso Online - Quem é Jesus?
+    botaohref: https://docs.google.com/forms/d/e/1FAIpQLSeOqgnK_fhtsIpg-WUcvqGo7gYkeLRvFwt84DVQWlVNMIGhEQ/viewform
+    date: 2022-12-19
+    visible: true
+    botaotitulo: Incrição do Curso Online
+    detalhes: |
+               **Tema:** Quem é Jesus? \
+               **Dia:** 05/12/19 de Dezembro das 19h30 às 21h (online) \
+               **Local:** Círculo dos trabalhadores cristãos \
+               Jesus Cristo é sem dúvidas o ser humano mais influente e conhecido que já pisou nesse mundo. \
+               Ele é inspiração para todos nós. \
+               Vamos conhecer mais sobre a sua vida, a sua história, os seus ensinamentos e o que podemos fazer para continuar a sua missão no mundo atual. \
+               Vale a pena fazer esse investimento na sua formação. \
+               O Curso é aberto para todas as pessoas, cristãs e não cristãs que querem aprender, conhecer e se aprofundar mais sobre “Quem é Jesus?” \
+               Faça a inscrição no link abaixo, compartilhe com os amigos e venha sem medo e preconceitos. \
+               Vamos fortalecer a nossa fé cristã e ampliar a nossa consciência sobre a vida de Jesus. \
+               Espero você em nossa primeira aula! \
