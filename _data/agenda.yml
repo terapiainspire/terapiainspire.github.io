@@ -3,7 +3,7 @@
 #
 agenda:
   title: Eventos de Dezembro - 2022
-  visible: true
+  visible: false
   imagem: images/cursoonline.jfif
   compromisso:
   - title: 💟 1º Workshop
@@ -62,7 +62,7 @@ agenda:
   - title:  Curso Online - Quem é Jesus?
     botaohref: https://docs.google.com/forms/d/e/1FAIpQLSeOqgnK_fhtsIpg-WUcvqGo7gYkeLRvFwt84DVQWlVNMIGhEQ/viewform
     date: 2022-12-19
-    visible: true
+    visible: false
     botaotitulo: Incrição do Curso Online
     detalhes: |
                **Tema:** Quem é Jesus? \
