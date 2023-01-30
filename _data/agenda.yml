@@ -2,9 +2,9 @@
 # Data do Eventos
 #
 agenda:
-  title: Eventos de Dezembro - 2022
-  visible: false
-  imagem: images/cursoonline.jfif
+  title: Eventos e Live
+  visible: true
+  imagem: images/livediaria.jpeg
   compromisso:
   - title: 💟 1º Workshop
     botaohref: agenda
@@ -76,3 +76,15 @@ agenda:
                Faça a inscrição no link abaixo, compartilhe com os amigos e venha sem medo e preconceitos. \
                Vamos fortalecer a nossa fé cristã e ampliar a nossa consciência sobre a vida de Jesus. \
                Espero você em nossa primeira aula! \
+               
+  - title:  Live no Instagram 
+    botaohref: https://www.instagram.com/terapia_inspire/live/
+    date: 2022-01-31
+    visible: true
+    botaotitulo:  NO Live Instagram
+    detalhes: |
+               **Tema:** O Poder da Oração \
+               **Dia:** 2ª a 6ª (online) \
+               **Local:** Instagram \ 
+
+               
