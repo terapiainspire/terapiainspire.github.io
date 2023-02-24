@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #55A3BA;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #5AADBF 15%, #55A3BA 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #5AADBF 15%, #55A3BA 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #192A40 15%, #55A3BA 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #192A40 15%, #55A3BA 85%);
+		background-color: #381864;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #5AADBF 15%, #381864 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #5AADBF 15%, #381864 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #471F7F 15%, #381864 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg,  #471F7F 15%, #381864 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2238,7 +2238,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #55A3BA;
+			background: #381864;
 		}
 
 	input[type="checkbox"] + label,
@@ -2256,7 +2256,7 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #55A3BA;
+		color: #381864;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2775,7 +2775,7 @@ input, select, textarea {
 	}
 
 	header.major h2:after {
-		background-color: #55A3BA;
+		background-color: #381864;
 	}
 
 /* Table */
@@ -3421,7 +3421,7 @@ input, select, textarea {
 	}
 
 		#main input, #main select, #main textarea {
-			color: #55A3BA;
+			color: #381864;
 		}
 
 		#main a:hover {
@@ -3433,7 +3433,7 @@ input, select, textarea {
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #55A3BA;
+			color: #381864;
 		}
 
 		#main blockquote {
@@ -3492,7 +3492,7 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #8cc9f0;
+				background-color: #381864;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
