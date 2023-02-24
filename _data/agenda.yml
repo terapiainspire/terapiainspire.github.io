@@ -4,7 +4,7 @@
 agenda:
   title: Eventos e Live
   visible: true
-  imagem: images/livediaria.jpeg
+  imagem: images/livequarta2.jpeg
   compromisso:
   - title: 💟 1º Workshop
     botaohref: agenda
@@ -83,8 +83,8 @@ agenda:
     visible: true
     botaotitulo:  NO Live Instagram
     detalhes: |
-               **Tema:** O Poder da Oração \
-               **Dia:** 2ª a 6ª (online) \
+               **Tema:** A coragem de mudar o que pode ser mudado. \
+               **Dia:** Quarta-feria as 20:30 (online) \
                **Local:** Instagram \ 
 
                
