@@ -3393,15 +3393,23 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 736px) {
-
-			#nav {
-				display: none;
+ 
+			#nav ul li.navcontato {
+				padding: 0 0.5em;
+				margin: 0;
 			}
-
-				#nav + #main {
-					padding-top: 0;
+		    #nav ul li.navmenu {
+					display: none; 
 				}
 
+			#nav { 
+				width: 67em;
+				max-width: calc(100% - 2em);
+			}
+
+			#nav + #main {
+				padding-top: 6em;
+			}
 		}
 
 /* Main */
