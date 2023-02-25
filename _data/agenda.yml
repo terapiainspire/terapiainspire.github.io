@@ -3,7 +3,7 @@
 #
 agenda:
   title: Eventos e Live
-  visible: true
+  visible: false
   imagem: images/livequarta2.jpeg
   compromisso:
   - title: 💟 1º Workshop
