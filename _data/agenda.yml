@@ -2,7 +2,7 @@
 # Data do Eventos
 #
 agenda:
-  title: Eventos e Live
+  title: Live's & Eventos
   visible: true
   imagem: images/livequarta2.jpeg
   compromisso:
@@ -81,10 +81,26 @@ agenda:
     botaohref: https://www.instagram.com/terapia_inspire/live/
     date: 2022-01-31
     visible: true
+    imagem: images/livequarta20230301.jpg
     botaotitulo:  🔴 Live Instagram
     detalhes: |
-               **Tema:** A coragem de mudar o que pode ser mudado. \
-               **Dia:** Quarta-feria as 20:30 (online) \
+               Vamos iniciar um mês dedicado a você que tem um lugar único e especial aqui na Inspire. \
+               Conversaremos com a querida Jéssica Tomazetti Kuroda sobre “A mulher e suas múltiplas versões”.\
+               **Dia:** 1 de março (Quarta-feria) as 20:30 (online) \
                **Local:** Instagram
+                              
+  - title:  1º Café Terapia 2023 em Limeira
+    botaohref: https://forms.gle/95z5M5taactLqHsA8
+    date: 2023-03-11
+    visible: true
+    imagem: images/cafeterapiamarco.png
+    botaotitulo:  Incrição do Café Terapia
+    detalhes: |
+               Vamos realizar nosso 1º Café Terapia 2023 em Limeira - SP, no Círculo de operários cristãos em Limeira - SP \
+               Tema: "Resgatando a força feminina e curando as feridas do coração". \
+               Será uma oportunidade para você fazer a Terapia em grupo e cuidar da sua saúde emocional! \
+               Dia: **11 de março das 14 às 16h ** \
+               O investimento desse encontro é de **R$ 50,00**. 
+
 
                

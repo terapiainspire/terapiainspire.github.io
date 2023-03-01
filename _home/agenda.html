@@ -5,20 +5,20 @@
 		<h2>  {{ agenda.title }} </h2>					
 	</header>
     <div class="row">
-        <div class="col-6 col-12-medium">
-            <span class="image fit"><img src="{{ agenda.imagem }}" alt="Agenda Imagem" /></span>
-        </div>
-        <div class="col-6 col-12-medium">
-            {% for compromisso in agenda.compromisso %}
-                {% if compromisso.visible %}
+        {% for compromisso in agenda.compromisso %}
+        {% if compromisso.visible %}
+            <div class="col-6 col-12-medium">
+                <span class="image fit"><img src="{{ compromisso.imagem }}" alt="{{ compromisso.title }}" /></span>
+            </div>
+            <div class="col-6 col-12-medium">
                     <h2>{{ compromisso.title }}</h2>
                     <p> {{ compromisso.detalhes | markdownify }}
                         {% if compromisso.botaohref %}
                         <a href="{{ compromisso.botaohref }}" class="button primary"> {{ compromisso.botaotitulo }}</a></p>
-                        {% endif %}
-                {% endif %}
-            {% endfor %}       
-        </div>
+                        {% endif %}                 
+            </div>
+        {% endif %}
+        {% endfor %}     
     </div>				
 </section>
 {% endif %}
