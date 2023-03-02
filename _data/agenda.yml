@@ -80,7 +80,7 @@ agenda:
   - title:  Live no Instagram 
     botaohref: https://www.instagram.com/terapia_inspire/live/
     date: 2022-01-31
-    visible: true
+    visible: false
     imagem: images/livequarta20230301.jpg
     botaotitulo:  🔴 Live Instagram
     detalhes: |
