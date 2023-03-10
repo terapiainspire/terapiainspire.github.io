@@ -2,19 +2,7 @@
 name: Deploy Pages Automático 
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [ "main" ]
+  deployment
   schedule:
-      - cron: '59 * * * *'
+      - cron: '10 * * * *'
 
- # Build settings
-compress-site: yes
-
-encoding: "UTF-8"
-compress_html: # - http://jch.penibelst.de/
-  clippings: all
-  ignore:
-    envs: development
