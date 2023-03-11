@@ -11,8 +11,7 @@
 {% if agenda.visible and mostraragenda | default: false %}
 <section id="Eventos" class="main special">
     <header class="major">
-		<h2>  {{ agenda.title }} </h2>		
-        <p>{{ agenda.subtitle | markdownify }}	</p> 				
+		<h2>  {{ agenda.title }} </h2>		 				
 	</header>
     <div class="row">
         {% for compromisso in agenda.compromisso %}
