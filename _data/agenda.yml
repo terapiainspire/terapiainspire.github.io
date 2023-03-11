@@ -1,108 +1,18 @@
 #
 # Data do Eventos
+# Data e Hora de UTL e +3 do que o Brasil
 #
 agenda:
   title: Live's & Eventos
+  subtitle: Sempre vamos trazer para vocês eventos e lives importantes  para ajudar no conhecimento...
   visible: true
   imagem: images/livequarta2.jpeg
   compromisso:
-  - title: 💟 1º Workshop
-    botaohref: agenda
-    botaotitulo: Veja mais - Agenda 
-    date: 2022-10-13  
-    visible: false
-    detalhes: |
-               ~~Tema: “Não aceite migalhas: resgatando o amor-próprio”.~~ \
-               ~~Dia: 13/10/22 às 20h~~ (**Realizado**) \
-               ~~Acesso: Google Meet~~ \
-               ~~Investimento: R$ 20,00 por pessoa~~
-
-  - title: 💟 CAFÉ TERAPIA
-    botaohref: https://docs.google.com/forms/d/1owfXi-PxdPPDlgrMqoozjrYQzH93j40-VzpUmZ_Jz3s/
-    date: 2022-10-22
-    visible: false
-    botaotitulo: Incrição do Café Terapia
-    detalhes: |
-               Tema: “Escolho me amar. Eu mereço mais”.\
-               Dia: 22/10/2022 das 15 às 18h (presencial)\
-               Local: Círculo dos trabalhadores cristãos\
-               Rua Coronel Antônio, 81. Boa Vista - Limeira - SP\
-               Fazer inscrição de 13 a 20/10 pelo link que será disponibilizado aqui.\
-               Investimento: R$ 40,00 por pessoa
-  
-  - title: 💟 2º Workshop
-    botaohref: https://forms.gle/KLzfLoZBoNb93bhB6 
-    botaotitulo:  Incrição Apertando Aqui
-    date: 2022-11-02 
-    visible: false
-    detalhes: |
-               Tema:  “Viva o luto para depois não viver na dor.” \
-                  Você está passando pelo luto ou conhece alguém que está vivendo este momento da vida? \
-                  Chegou o momento de conversarmos sobre o luto e desenvolvermos habilidades de como superarmos essas fases de maneira leve e eficiente.
-                  Faça a sua inscrição e tire todas as suas dúvidas sobre esse tema comigo! \
-                  Vale muito a pena participar! \
-               Dia: **02/11/22 às 20h** \
-               Acesso: **Google Meet** \
-               Investimento: **R$ 20,00 por pessoa**
-  
-  - title:  2º CAFÉ TERAPIA 
-    botaohref: https://forms.gle/Dx2JG6FKhYDfvgwM8
-    date: 2022-11-19
-    visible: false
-    botaotitulo: Incrição do Café Terapia
-    detalhes: |
-               **Tema:** “Reencontro com a vida: vença o luto através do único remédio”.\
-               **Dia:** 19/11/2022 das 15 às 18h (presencial) \
-               **Local:** Círculo dos trabalhadores cristãos \
-               Rua Coronel Antônio, 81. Boa Vista - Limeira - SP \
-               *Faça a inscrição no link até dia 17/11.* \
-               Liberte-se do passado para seguir em frente. \
-               Aprenda a vencer o sofrimento com as perdas da vida, respeitando seus sentimentos, e ressignifique a dor e se reaproxime de Deus.
-  
-  - title:  Curso Online - Quem é Jesus?
-    botaohref: https://docs.google.com/forms/d/e/1FAIpQLSeOqgnK_fhtsIpg-WUcvqGo7gYkeLRvFwt84DVQWlVNMIGhEQ/viewform
-    date: 2022-12-19
-    visible: false
-    botaotitulo: Incrição do Curso Online
-    detalhes: |
-               **Tema:** Quem é Jesus? \
-               **Dia:** 05/12/19 de Dezembro das 19h30 às 21h (online) \
-               **Local:** Círculo dos trabalhadores cristãos \
-               Jesus Cristo é sem dúvidas o ser humano mais influente e conhecido que já pisou nesse mundo. \
-               Ele é inspiração para todos nós. \
-               Vamos conhecer mais sobre a sua vida, a sua história, os seus ensinamentos e o que podemos fazer para continuar a sua missão no mundo atual. \
-               Vale a pena fazer esse investimento na sua formação. \
-               O Curso é aberto para todas as pessoas, cristãs e não cristãs que querem aprender, conhecer e se aprofundar mais sobre “Quem é Jesus?” \
-               Faça a inscrição no link abaixo, compartilhe com os amigos e venha sem medo e preconceitos. \
-               Vamos fortalecer a nossa fé cristã e ampliar a nossa consciência sobre a vida de Jesus. \
-               Espero você em nossa primeira aula! \
-               
-  - title:  Live no Instagram 
-    botaohref: https://www.instagram.com/terapia_inspire/live/
-    date: 2022-01-31
-    visible: false
-    imagem: images/livequarta20230301.jpg
-    botaotitulo:  🔴 Live Instagram
-    detalhes: |
-               Vamos iniciar um mês dedicado a você que tem um lugar único e especial aqui na Inspire. \
-               Conversaremos com a querida Jéssica Tomazetti Kuroda sobre “A mulher e suas múltiplas versões”.\
-               **Dia:** 1 de março (Quarta-feria) as 20:30 (online) \
-               **Local:** Instagram
-
-  - title:  Live no Instagram - Novo Horário 18:00 🕕
-    botaohref: https://www.instagram.com/terapia_inspire/live/
-    date: 2023-03-08
-    visible: false
-    imagem: images/livequarta20230308.jpg
-    botaotitulo:  🔴 Live Instagram
-    detalhes: |
-               Nessa quarta-feira, dia 08/03 às 18h iremos conversar sobre “Os 5 segredos da liderança feminina” com a empreendedora, Patrícia Liz Gutierrez. Um assunto muito importante sobre a atuação da mulher na sociedade atual. \
-               **Dia:** 8 de março (Quarta-feria) as 18:00 (online) 🕕 \
-               **Local:** Instagram
-                              
+          
   - title:  1º Café Terapia 2023 em Limeira
     botaohref: https://forms.gle/95z5M5taactLqHsA8
-    date: 2023-03-11
+    dateinicial: 2023-03-01 14:00
+    datefinal: 2023-03-11 18:00
     visible: true
     imagem: images/cafeterapiamarco.png
     botaotitulo:  Inscrição do Café Terapia
