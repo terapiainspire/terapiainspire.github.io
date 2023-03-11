@@ -1,11 +1,9 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Automaticamente Pagina
 
-on:
-  push:
-    branches: ["main"]
+on: 
   schedule:
-    - cron: '10 * * * *'
+    - cron: '55 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
