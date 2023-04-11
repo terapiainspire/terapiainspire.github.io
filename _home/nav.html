@@ -1,0 +1,26 @@
+
+{% assign agenda = site.data.agenda.agenda %}
+{% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
+{% assign mostraragenda = false %}
+{% for compromisso in agenda.compromisso %}
+{% capture dateinicial1 %}{{compromisso.dateinicial | date: '%s'}}{% endcapture %}
+{% capture datefinal1 %}{{compromisso.datefinal | date: '%s'}}{% endcapture %}
+{% if dateinicial1 < datenow and datefinal1 > datenow and compromisso.visible %}
+    {% assign mostraragenda = true %}
+{% endif %}
+{% endfor %} 
+
+<nav id="nav">
+    <ul>
+        <li class="navcontato"><a href="#Inspire" class="active">Inspire</a></li>
+        <li class="navmenu" ><a href="#Diego" >Quem sou eu</a></li>
+        <li class="navmenu" ><a href="#Terapia" >Terapia </a></li>
+        {% if agenda.visible and mostraragenda | default: false %}
+        <li class="navmenu" ><a href="#Eventos">Eventos</a></li>
+        {% endif %} 
+        <li class="navmenu" ><a href="#Logoterapia">Logoterapia</a></li>
+        <li class="navmenu" ><a href="#Planos">Planos</a></li>
+        <li class="navcontato"><a href="https://terapiainspire.com.br/whatsapp" > Agende <span class="icon brands fa-whatsapp"\> </span>(19) 97156-4256</a></li>
+   
+    </ul>
+</nav>

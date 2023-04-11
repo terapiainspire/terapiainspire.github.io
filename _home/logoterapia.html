@@ -1,0 +1,24 @@
+{% assign logoterapia = site.data.data.logoterapia %}
+<section id="Logoterapia" class="main special">
+    <header class="major">
+        <h2>{{ logoterapia.title }}</h2>
+    </header>
+    <p>
+        <div class="box alt">
+            <div class="row gtr-uniform">
+                <div class="col-12">
+                <span class="image left"><img src="images/pessoas.jpg" alt="Pessoas" /></span>
+                <p>{{ logoterapia.detalhes | markdownify }}</p>
+            </div>
+       
+                {% for beneficios in logoterapia.beneficios %}
+                <div class="col-4 col-12-medium">
+                    <h3>{{ beneficios.titulo }}</h3>
+                    <p>{{ beneficios.detalhes | markdownify }}</p>
+                </div>
+                {% endfor %}   
+            </div>
+        </div>
+    </p>
+
+</section>

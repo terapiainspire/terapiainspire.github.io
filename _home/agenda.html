@@ -1,0 +1,35 @@
+{% assign agenda = site.data.agenda.agenda %}
+{% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
+{% assign mostraragenda = false %}
+{% for compromisso in agenda.compromisso %}
+{% capture dateinicial1 %}{{compromisso.dateinicial | date: '%s'}}{% endcapture %}
+{% capture datefinal1 %}{{compromisso.datefinal | date: '%s'}}{% endcapture %}
+{% if dateinicial1 < datenow and datefinal1 > datenow and compromisso.visible %}
+    {% assign mostraragenda = true %}
+{% endif %}
+{% endfor %}  
+{% if agenda.visible and mostraragenda | default: false %}
+<section id="Eventos" class="main special">
+    <header class="major">
+		<h2>  {{ agenda.title }} </h2>		 				
+	</header>
+    <div class="row">
+        {% for compromisso in agenda.compromisso %}
+        {% capture dateinicial %}{{compromisso.dateinicial | date: '%s'}}{% endcapture %}
+        {% capture datefinal %}{{compromisso.datefinal | date: '%s'}}{% endcapture %}
+        {% if dateinicial < datenow and datefinal > datenow and compromisso.visible %}
+            <div class="col-6 col-12-medium">
+                <span class="image fit"><img src="{{ compromisso.imagem }}" alt="{{ compromisso.title }}" /></span>
+            </div>
+            <div class="col-6 col-12-medium">
+                    <h2>{{ compromisso.title }}</h2>
+                    <p> {{ compromisso.detalhes | markdownify }}
+                        {% if compromisso.botaohref %}
+                        <a href="{{ compromisso.botaohref }}" class="button primary"> {{ compromisso.botaotitulo }}</a></p>
+                        {% endif %}                 
+            </div>
+        {% endif %}
+        {% endfor %}     
+    </div>				
+</section>
+{% endif %}

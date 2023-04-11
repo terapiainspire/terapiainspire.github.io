@@ -1,0 +1,27 @@
+#
+# Data do Eventos
+# Data e Hora de UTL e +3 do que o Brasil
+#
+agenda:
+  title: Live's & Eventos
+  visible: true
+  imagem: images/livequarta2.jpeg
+  compromisso:
+          
+  - title:  1º Café Terapia 2023 em Limeira
+    botaohref: https://forms.gle/95z5M5taactLqHsA8
+    dateinicial: 2023-03-01 14:00
+    datefinal: 2023-03-11 16:00
+    visible: true
+    imagem: images/cafeterapiamarco.png
+    botaotitulo:  Inscrição do Café Terapia
+    detalhes: |
+               Vamos realizar nosso 1º Café Terapia 2023 em Limeira - SP, **no Círculo de operários cristãos** em Limeira - SP \
+               Tema: "Resgatando a força feminina e curando as feridas do coração". \
+               Será uma oportunidade para você fazer a Terapia em grupo e cuidar da sua saúde emocional! \
+               Dia: **11 de março das 14 às 16h** \
+               O investimento desse encontro é de **R$ 50,00**. \
+               Se você faz terapia individual comigo, tem 25% de desconto, sendo que o valor fica **R$ 37,50**.
+           
+               
+               
