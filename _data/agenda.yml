@@ -4,7 +4,7 @@
 #
 agenda:
   title: Live's & Eventos
-  visible: true
+  visible: false
   imagem: images/livequarta2.jpeg
   compromisso:
           
@@ -12,7 +12,7 @@ agenda:
     botaohref: https://terapiainspire.com.br/whatsapp
     dateinicial: 2023-04-01 14:00
     datefinal: 2023-05-09 15:00
-    visible: true
+    visible: false
     imagem: images/terapiaparamulheres.jpeg
     botaotitulo:  Inscrição via PIX
     detalhes: |
