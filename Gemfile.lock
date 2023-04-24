@@ -386,6 +386,7 @@ DEPENDENCIES
   jekyll-seo-tag
   rails
   tzinfo-data
-  webrick (~> 1.7)
+  webrick (~> 1.8.1)
 
-
+BUNDLED WITH
+   2.4.12
