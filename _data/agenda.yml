@@ -5,7 +5,7 @@
 agenda:
   title: Eventos
   visible: true
-  imagem: images/livequarta2.jpeg
+  #imagem: images/livequarta2.jpeg
   compromisso:
           
   - title:  Café Terapia  “Maria de Nazaré, modelo de superação” em Limeira
