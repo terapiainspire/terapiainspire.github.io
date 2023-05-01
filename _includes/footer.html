@@ -1,21 +1,22 @@
+{% assign empresa = site.data.data.empresa %}
 <footer id="footer">
     <section>
         <span class="logo"><a href="https://terapiainspire.com.br/"><img src="images/logo.png" alt="logo" /></a></span>
-        <a href="https://terapiainspire.com.br/"><h2>Inspire Terapia Integrativa</h2></a>
-        <p>Cuide da sua saúde emocional e espiritual.</p>
+        <a href="https://terapiainspire.com.br/"><h2>{{ empresa.nome }}</h2></a>
+        <p>{{ empresa.slogan }}</p>
     </section>
     <section>
         <h2>Contato e Local</h2>
         <dl class="alt">
             <dt>Endereço</dt>
-            <dd>Rua 7 de setembro, 666 - Centro &bull; Araras, SP  &bull;</dd>
+            <dd> {{ empresa.endereco }} </dd>
             <dt>Telefone</dt>
-            <dd><a href="https://api.whatsapp.com/send/?phone=5519971564256&text&app_absent=0">(19) 97156-4256</a></dd>
-            <dt>Email</dt>
-            <dd><a href="mailto:terapiainspire@gmail.com">terapiainspire@gmail.com</a></dd>
+            <dd><a href="https://api.whatsapp.com/send/?phone=5519971564256&text&app_absent=0"> {{ empresa.telefone }}</a></dd>
+            <dt>E-mail</dt>
+            <dd><a href="mailto:terapiainspire@gmail.com"></a> {{ empresa.email }} </dd>
         </dl>
         <ul class="icons">
-            <li><a href="https://terapiainspire.com.br/Instagram" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+            <li><a href="https://terapiainspire.com.br/instagram" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
             <li><a href="https://terapiainspire.com.br/whatsapp" class="icon brands fa-whatsapp alt"><span class="label">WhatsApp</span></a></li>
             <li><a href="https://t.me/terapiainspire" class="icon brands fa-telegram alt"><span class="label">Telegram</span></a></li>
             <li><a href="https://g.page/r/CSKVjwmt_FcfEBA" class="icon solid fa-location-dot alt"><span class="label">Google Maps</span></a></li>
