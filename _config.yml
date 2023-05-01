@@ -26,7 +26,7 @@ instagram: terapia_inspire
 social:
   name: terapia_inspire
   links:
-    - https://instagram.com/terapia_inspire 
+    - https://instagram.com/terapia_inspire/ 
 
 plugins:
   - jekyll-seo-tag
