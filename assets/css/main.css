@@ -20,17 +20,20 @@ footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: none;
 	font-size: 100%;
 	font: inherit;
+	text-decoration-line: none;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
+	text-decoration-line: none;
 	display: block;}
 
 body {
 	line-height: 1;
+	text-decoration-line: none;
 }
 
 ol, ul {
@@ -122,6 +125,7 @@ input, select, textarea {
 	body {
 		background-color: #192A40;
 		color: #ffffff;
+		text-decoration-line: none;
 	}
 
 	body, input, select, textarea {
@@ -129,6 +133,7 @@ input, select, textarea {
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
+		text-decoration-line: none;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -160,8 +165,8 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
 		transition: color 0.2s ease, border-bottom 0.2s ease;
-		text-decoration: none;
-		border-bottom: dotted 1px;
+		text-decoration-line: none;
+		border-bottom: none;
 		color: inherit;
 	}
 
@@ -202,7 +207,7 @@ input, select, textarea {
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
-			text-decoration: none;
+			text-decoration-line: none;
 		}
 
 	h1 {
@@ -1849,7 +1854,7 @@ input, select, textarea {
 		min-width: 9.25em;
 		padding: 0 1.5em;
 		text-align: center;
-		text-decoration: none;
+		text-decoration-line: none;
 		white-space: nowrap;
 	}
 
@@ -2085,7 +2090,7 @@ input, select, textarea {
 		display: block;
 		outline: 0;
 		padding: 0 1em;
-		text-decoration: none;
+		text-decoration-line: none;
 		width: 100%;
 	}
 
@@ -2141,7 +2146,7 @@ input, select, textarea {
 
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
-			text-decoration: none;
+			text-decoration-line: none;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2288,7 +2293,7 @@ input, select, textarea {
 /* Icon */
 
 	.icon {
-		text-decoration: none;
+		text-decoration-line: none;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -2734,6 +2739,7 @@ input, select, textarea {
 		header.major p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			text-decoration-line: none;
 		}
 
 		header.major.special {
@@ -2762,10 +2768,12 @@ input, select, textarea {
 			header.major p {
 				font-size: 1em;
 				letter-spacing: 0;
+				text-decoration-line: none;
 			}
 
 				header.major p br {
 					display: none;
+					text-decoration-line: none;
 				}
 
 		footer.major {
@@ -3156,6 +3164,7 @@ input, select, textarea {
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			text-decoration-line: none;
 		}
 
 		#header.alt {
@@ -3230,10 +3239,12 @@ input, select, textarea {
 				#header p {
 					font-size: 1em;
 					letter-spacing: 0;
+					text-decoration-line: none;
 				}
 
 					#header p br {
 						display: none;
+						text-decoration-line: none;
 					}
 
 				#header.alt {
@@ -3363,6 +3374,7 @@ input, select, textarea {
 					border: 0;
 					border-radius: 8px;
 					box-shadow: inset 0 0 0 1px transparent;
+					text-decoration-line: none;
 				}
 
 					#nav ul li a:hover {
@@ -3390,6 +3402,7 @@ input, select, textarea {
 
 				#nav.alt ul li a {
 					font-size: 0.9em;
+					text-decoration-line: none;
 				}
 
 		@media screen and (max-width: 736px) {
@@ -3760,6 +3773,7 @@ input, select, textarea {
 
 		#main table tbody tr {
 			border-color: #dddddd;
+			text-decoration-line: none;
 		}
 
 			#main table tbody tr:nth-child(2n + 1) {
@@ -3891,8 +3905,7 @@ input, select, textarea {
 
 		}
 
-/* Footer */
-
+/* Footer */ 
 	#footer {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3905,45 +3918,61 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		border: none;
+		text-decoration-line: color #000000;
+	} 
+
+	#footer > * {
+		width: calc(50% - 2em);
+		margin-left: 2em;
+		border: none;
+		text-decoration-line: none;
 	}
 
-		#footer > * {
-			width: calc(50% - 2em);
-			margin-left: 2em;
-		}
+	#footer .copyright {
+		width: 100%;
+		margin: 2.5em 0 2em 0;
+		font-size: 0.8em;
+		text-align: center;
+		border: none;
+		text-decoration-line: none;  
+	}
+  
 
-		#footer .copyright {
-			width: 100%;
-			margin: 2.5em 0 2em 0;
-			font-size: 0.8em;
-			text-align: center;
-		}
-
-		@media screen and (max-width: 1280px) {
-
+		@media screen and (max-width: 1280px) { 
 			#footer {
 				padding: 4em 4em 2em 4em ;
+				text-decoration-line: none;  
+				border: none;
 			}
 
 		}
 
-		@media screen and (max-width: 980px) {
-
+		@media screen and (max-width: 980px) { 
 			#footer {
 				padding: 4em 3em 2em 3em ;
 				display: block;
 				margin: 0 0 3em 0;
 				width: 100%;
+				text-decoration-line: none;  
+				border: none;
+
 			}
 
 				#footer > * {
 					width: 100%;
 					margin-left: 0;
 					margin-bottom: 3em;
+					text-decoration-line: none;  
+					border: none;
+
 				}
 
 				#footer .copyright {
 					text-align: left;
+					text-decoration-line: none;  
+					border: none;
+
 				}
 
 		}
@@ -3964,8 +3993,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
-
+		@media screen and (max-width: 480px) { 
 			#footer {
 				padding: 2.5em 1em 0.5em 1em ;
 			}
@@ -3978,6 +4006,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
+		text-decoration-line: none;
 	}
 
 		@media screen and (max-width: 480px) {
