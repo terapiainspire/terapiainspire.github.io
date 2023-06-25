@@ -103,10 +103,10 @@ input, select, textarea {
 
 	body {
 		background-color: #381864;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #5AADBF 15%, #381864 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #5AADBF 15%, #381864 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #471F7F 15%, #381864 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg,  #471F7F 15%, #381864 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #270E36 1%, #270E36 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #270E36 1%, #381864 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #270E36 1%, #381864 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg,  #270E36 1%, #381864 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3834,10 +3834,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #efa8b0, #270E36, #8cc9f0);
+			background-image: -webkit-linear-gradient(90deg, #efa8b0, #270E36, #8cc9f0);
+			background-image: -ms-linear-gradient(90deg, #efa8b0, #270E36, #8cc9f0);
+			background-image: linear-gradient(90deg, #efa8b0, #270E36, #8cc9f0);
 		}
 
 		#main table tbody tr {
@@ -4075,6 +4075,26 @@ input, select, textarea {
 	.footerTab:hover { 
 		opacity: 0.8;
 	}
+
+
+	.footerlogo { 
+		border-radius: 50%;  
+	} 
+	
+	.footerlogo:hover { 
+		opacity: 0.8;
+		animation: rodar 3s linear infinite;
+	}
+
+	@keyframes rodar {
+		from {
+		  transform: rotate(0deg);
+		}
+		to {
+		  transform: rotate(360deg);
+		}
+	  }
+
 
 /* Wrapper */
 

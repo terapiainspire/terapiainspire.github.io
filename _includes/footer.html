@@ -1,8 +1,8 @@
 {% assign empresa = site.data.data.empresa %}
 <footer id="footer">
     <section>
-        <span class="logo"><a href="https://terapiainspire.com.br/"><img src="images/logo.png" alt="logo" /></a></span>
-        <a href="https://terapiainspire.com.br/"><h2>{{ empresa.nome }}</h2></a>
+        <span ><a href="{{ empresa.site }}"><img src="images/logoamarelo.JPG" class="footerlogo" /></a></span>
+        <a href="{{ empresa.site }}"><h2>{{ empresa.nome }}</h2></a>
         <p>{{ empresa.slogan }}</p>
     </section>
     <section>
@@ -20,5 +20,5 @@
             <li><a href="{{ empresa.wazelink }}" class="icon brands fa-waze alt"><span class="label">Waze</span></a></li>
         </ul>
     </section>
-    <p class="copyright"><i class="fas fa-brands fa-creative-commons"></i>  Feito com <i class="fas fa-heart"></i> pelo <a href="https://www.linkedin.com/in/fabiohcnobre"  alt="FabioHCNobre" >FabioHCNobre</a>. - Atualizado em: {{ site.time | date: '%d/%m/%Y %H:%M' }}  </p>
+    <p class="copyright"><i class="fas fa-brands fa-creative-commons"></i>  Feito com <i class="fas fa-heart"></i> pelo <a href="https://www.linkedin.com/in/fabiohcnobre"  alt="FabioHCNobre" >FabioHCNobre</a>. - Atualizado em: {{ site.time | date: '%d/%m/%y %H:%M' }}  </p>
 </footer>
