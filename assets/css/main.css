@@ -2436,8 +2436,7 @@ input, select, textarea {
 			background-color: rgba(255, 255, 255, 0.2);
 		}
 
-/* Image */
-
+/* Image */ 
 	.image {
 		border-radius: 8px;
 		border: 0;
@@ -2454,9 +2453,9 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
-				width: 100%;
-			}
+		.image.left img, .image.right img {
+			width: 100%;
+		}
 
 		.image.left {
 			float: left;
@@ -2476,9 +2475,9 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.image.fit img {
-				width: 100%;
-			}
+		.image.fit img {
+			width: 100%;
+		}
 
 		.image.main {
 			display: block;
@@ -2487,10 +2486,80 @@ input, select, textarea {
 			border-radius: 0;
 		}
 
-			.image.main img {
-				width: 100%;
-				border-radius: 0;
-			}
+		.image.main img {
+			width: 100%;
+			border-radius: 0;
+		}
+
+
+
+/* ImageAbout */ 
+	.imageAbout {
+		border-radius: 8px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+	.imageAbout:hover {
+		animation: spin 1s linear infinite;
+	  }
+	   
+	.imageAbout img {
+		border-radius: 8px;
+		display: block;
+	}
+
+	.imageAbout.left, .imageAbout.right {
+		max-width: 40%;
+	}
+
+	.imageAbout.left img, .imageAbout.right img {
+		width: 100%;
+	}
+
+	.imageAbout.left {
+		float: left;
+		margin: 0 1.5em 1em 0;
+		top: 0.25em;
+	}
+
+	.imageAbout.right {
+		float: right;
+		margin: 0 0 1em 1.5em;
+		top: 0.25em;
+	}
+
+	.imageAbout.fit {
+		display: block;
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+
+	.imageAbout.fit img {
+		width: 100%;
+	}
+
+	.imageAbout.main {
+		display: block;
+		margin: 0 0 0 0;
+		width: 100%;
+		border-radius: 0;
+	}
+
+	.imageAbout.main img {
+		width: 100%;
+		border-radius: 0;
+	}
+
+	@keyframes spin {
+		from {
+		  transform: rotateY(0deg);
+		}
+		to {
+		  transform: rotateY(360deg);
+		}
+	  }
 
 /* List */
 
@@ -3078,7 +3147,7 @@ input, select, textarea {
 				margin: 0 0 2em 0;
 			}
 
-		.spotlight .image {
+		.spotlight .imageAbout {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
@@ -3086,7 +3155,7 @@ input, select, textarea {
 			border: solid 1px;
 		}
 
-			.spotlight .image img {
+			.spotlight .imageAbout img {
 				display: block;
 				border-radius: 100%;
 				width: 16em;
