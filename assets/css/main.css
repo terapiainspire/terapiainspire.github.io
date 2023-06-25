@@ -3654,7 +3654,7 @@ input, select, textarea {
 					#main input[type="button"].telegram:hover,
 					#main button.telegram:hover,
 					#main .button.telegram:hover {
-						background-color: #0088CC ;
+						opacity: 0.5; 
 					}
 	
 					#main input[type="submit"].telegram:active,
@@ -3662,7 +3662,7 @@ input, select, textarea {
 					#main input[type="button"].telegram:active,
 					#main button.telegram:active,
 					#main .button.telegram:active {
-						background-color: #0088CC  ;
+						background-color: #0700cc ;
 					}
 	
 					#main input[type="submit"].telegram.icon:before,
@@ -3689,7 +3689,7 @@ input, select, textarea {
 					#main input[type="button"].instagram:hover,
 					#main button.instagram:hover,
 					#main .button.instagram:hover {
-						background-color: #3f729b  ;
+						opacity: 0.5; 
 					}
 	
 					#main input[type="submit"].instagram:active,
@@ -3697,7 +3697,7 @@ input, select, textarea {
 					#main input[type="button"].instagram:active,
 					#main button.instagram:active,
 					#main .button.instagram:active {
-						background-color: #3f729b   ;
+						background-color: #2904f8   ;
 					}
 	
 					#main input[type="submit"].instagram.icon:before,
