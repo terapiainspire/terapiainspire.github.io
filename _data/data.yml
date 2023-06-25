@@ -26,7 +26,7 @@ terapia:
 
 
 about:
-  title: Olá, sou o Diego!
+  title: Olá, sou o Diego Santos!
   imagem: images/diego.jpg
   detalhes: |
               Formado em Jornalismo, Filosofia, Teologia, Coaching e estudante de Psicologia, trabalho, principalmente, com você que busca reduzir o seu nível de estresse, organizar a sua rotina, gerenciar o seu tempo para aumentar a sua produtividade, desempenho e qualidade de vida, focar no que realmente importa e eliminar as distrações, superar o medo e a ansiedade diante de uma tomada de decisão importante e desenvolver uma espiritualidade que alcance a harmonia e a paz interior.
@@ -40,7 +40,7 @@ logoterapia:
   beneficios:
       - titulo: 'No DESENVOLVIMENTO PESSOAL vamos:'
         detalhes: |
-               <li> Elaborar um Projeto de vida
+                <li> Elaborar um Projeto de vida
                 <li> Superar crenças limitantes
                 <li> Desenvolver a gestão emocional
                 <li> Buscar por respostas para questões complexas
@@ -58,13 +58,13 @@ logoterapia:
                 <li>Trabalhar o conhecimento contínuo
       - titulo: 'No DESENVOLVIMENTO ESPIRITUAL vamos:'
         detalhes: |
-              <li> Buscar o equilíbrio espiritual 
-              <li> Desenvolver o alinhamento de propósitos
-              <li>Melhorar os relacionamentos humanos
-              <li>Aprender a Perdoar a si mesmo
-              <li> Maior consciência da força Interior
-              <li>Fortalecer as emoções positivas
-              <li>Aprender a desligar-se do passado e Viver o Aqui e Agora
+                <li> Buscar o equilíbrio espiritual 
+                <li> Desenvolver o alinhamento de propósitos
+                <li> Melhorar os relacionamentos humanos
+                <li> Aprender a Perdoar a si mesmo
+                <li> Maior consciência da força Interior
+                <li> Fortalecer as emoções positivas
+                <li> Aprender a desligar-se do passado e Viver o Aqui e Agora
 
 planos:
   title: Planos
