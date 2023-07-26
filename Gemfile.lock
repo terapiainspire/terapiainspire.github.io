@@ -286,8 +286,8 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.18.1)
-    net-imap (0.3.6)
+    minitest (5.19.0)
+    net-imap (0.3.7)
       date
       net-protocol
     net-pop (0.1.2)
@@ -373,10 +373,10 @@ GEM
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
     webrick (1.8.1)
-    websocket-driver (0.7.5)
+    websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.8)
+    zeitwerk (2.6.9)
 
 PLATFORMS
   x64-mingw-ucrt
