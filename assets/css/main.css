@@ -23,6 +23,7 @@ section, summary, time, mark, audio, video {
 	border: none;
 	font-size: 100%;
 	font: inherit;
+	scroll-behavior: smooth;
 	text-decoration-line: none;
 	vertical-align: baseline;}
 
