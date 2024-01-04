@@ -3381,7 +3381,7 @@ input, select, textarea {
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center; 
-		z-index: 10000;
+		z-index: 10;
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3465,7 +3465,7 @@ input, select, textarea {
 			background-color: rgba(247, 247, 247, 0.95);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
-			z-index: 10000;
+			z-index: 10;
 		}
 
 			#nav.alt ul li {
