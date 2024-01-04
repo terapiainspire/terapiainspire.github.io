@@ -2,28 +2,29 @@
 # Informações do site
 #
 empresa:  
-     title: Entre em contato conosco.
-     nome: Terapia Inspire
-     slogan: Cuide da sua saúde emocional e espiritual
-     endereco: Rua 7 de setembro, 666 - Centro &bull; Araras, SP  &bull;
-     enderecolink: https://g.page/r/CSKVjwmt_FcfEBA
-     wazelink: https://www.waze.com/en/live-map/directions/br/sp/terapia-inspire?place=ChIJkc-Co0h3yJQRIpWPCa38Vx8
-     telefone: (19) 97156-4256
-     telefonelink: https://api.whatsapp.com/send/?phone=5519971564256&text&app_absent=0
-     telegramlink: https://t.me/terapiainspire
-     email: terapiainspire@gmail.com
-     emaillink : "mailto:terapiainspire@gmail.com"
-     detalhes: |
+    title: Entre em contato conosco.
+    nome: Terapia Inspire
+    slogan: Cuide da sua saúde emocional e espiritual
+    endereco: Rua 7 de setembro, 666 - Centro &bull; Araras, SP  &bull;
+    enderecolink: https://g.page/r/CSKVjwmt_FcfEBA
+    wazelink: https://www.waze.com/en/live-map/directions/br/sp/terapia-inspire?place=ChIJkc-Co0h3yJQRIpWPCa38Vx8
+    telefone: (19) 97156-4256
+    telefonelink: https://api.whatsapp.com/send/?phone=5519971564256&text&app_absent=0
+    telegramlink: https://t.me/terapiainspire
+    email: terapiainspire@gmail.com
+    emaillink : "mailto:terapiainspire@gmail.com"
+    detalhes: |
               Sabe aquela sensação de estar perdido? Ou aquela busca interna por respostas e entendimentos de várias questões complexas da sua vida? Eu tenho a chave para suas inquietações. Quem passa pelo processo da Terapia Inspire, realiza mudanças e transformações significativas em sua vida alcançando maior clareza da sua história pessoal e ganha saúde e bem-estar. \
               Você já se sentiu frustrado por não conseguir alcançar seus objetivos? Em muitos casos, o estresse ocorre em virtude da falta de organização. Trabalhar com níveis reduzidos de estresse é fundamental para desenvolver e alcançar seus objetivos, para que você consiga encarar as suas tarefas e desafios com mais clareza e tranquilidade.
 
 terapia:
-  title: O que é a Terapia Integrativa?
+  title: O que é a Terapia Sistêmica?
   detalhes: |
-              A Terapia Integrativa é uma abordagem de análise existencia, inspirada na Logoterapia fundada por Viktor Frankl, que comprrende o ser humano na sua dimensão física, psíquica, emocional e espiritual, e tem como principios norteadores a buscca pelo sentido da vida apenas do sofrimento humano. 
-              
-              O Plano de Terapia tem como objetivo favorecer o desenvolvimento pessoal e espiritual em alta performance, identificando os pensamentos e atitudes da sua história de vida que te impedem de superar os conflitos para alcançar outro nível em sua vida, tornando-se mais produtiva, realizada e feliz.
+              A Terapia Sistêmica é uma abordagem terapêutica para refletir sobre o sistema familiar e a repetição dos padrões comportamentais, buscando superar as crenças limitantes. 
 
+              A Logoterapia é uma abordagem existencial, fundada por Viktor Frankl, que comprrende o ser humano na sua dimensão física, psíquica, emocional e espiritual, e tem como principios norteadores a busca pelo sentido da vida, apesar do sofrimento humano.
+              
+              O Plano de ação da Terapia tem como objetivo favorecer o desenvolvimento pessoal, mental, emocional e espiritual em alta performance. Para isso, é preciso expansão da consciência, autoconhecimento e transformação interior e de atitudes para alcançar o sucesso e a prosperidade, tornando sua vida mais produtiva, realizada e feliz.
 
 about:
   title: Olá, sou o Diego Santos!
@@ -71,9 +72,9 @@ planos:
   plano:
   - nome: ACOLHIMENTO
     detalhes: |
-               As sessões de acolhimento terapêutico têm o objetivo de trazer alívio das angústias e tensões. 
-               Com duração de 30 minutos, pode ser realizada mais de uma vez caso a pessoa sinta necessidade. 
-               Porém, é importante conversar com o terapeuta para definir a melhor direção. 
+              As sessões de acolhimento terapêutico têm o objetivo de trazer alívio das angústias e tensões. 
+              Com duração de 30 minutos, pode ser realizada mais de uma vez caso a pessoa sinta necessidade. 
+              Porém, é importante conversar com o terapeuta para definir a melhor direção. 
 
   - nome: TERAPIA
     detalhes: |
