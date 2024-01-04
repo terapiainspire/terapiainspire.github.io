@@ -3372,7 +3372,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
 		color: #636363;
-		position: absolute;
+		position: sticky;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
@@ -3381,6 +3381,8 @@ input, select, textarea {
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+		top: 0;
+		z-index: 10;
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3458,7 +3460,7 @@ input, select, textarea {
 					}
 
 		#nav.alt {
-			position: fixed;
+			position: sticky;
 			top: 0;
 			padding: 0.5em 1em;
 			background-color: rgba(247, 247, 247, 0.95);
