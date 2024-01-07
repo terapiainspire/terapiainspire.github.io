@@ -22,11 +22,11 @@ author:
 
 waze: terapia_inspire
 
-instagram: terapia_inspire
+instagram: diegoterapiainspire
 social:
-  name: terapia_inspire
+  name: diegoterapiainspire
   links:
-    - https://instagram.com/terapia_inspire/ 
+    - https://instagram.com/diegoterapiainspire/
 
 plugins:
   - jekyll-seo-tag
