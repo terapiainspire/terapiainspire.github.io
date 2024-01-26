@@ -4,22 +4,14 @@
 	Saiba mais !
 -->
 <html lang="pt-br">
-
 {% include head.html %}
-
-<body class="is-preload">
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MC6VDTV"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-	<div id="wrapper">
-
-		{{ content }}
-
-		{% include footer.html %}
-
-	</div>
-
-	{% include scripts.html %}
-
-</body>
+	<body class="is-preload">
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MC6VDTV"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<div id="wrapper">
+			{{ content }}
+			{% include footer.html %}
+		</div>
+		{% include scripts.html %}
+	</body>
 </html>
