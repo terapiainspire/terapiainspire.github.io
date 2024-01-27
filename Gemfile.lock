@@ -426,3 +426,5 @@ DEPENDENCIES
   tzinfo-data
   webrick (~> 1.8.1)
 
+BUNDLED WITH
+   2.5.5
