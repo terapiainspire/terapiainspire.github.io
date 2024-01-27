@@ -4242,6 +4242,7 @@ body.is-preload #header.alt .logo {
 .footerlogo:hover {
 	transition: all 0.5s ease;
   	transform: rotate(360deg);
+	opacity: 0.5;
 }
 
 @keyframes rodar {
