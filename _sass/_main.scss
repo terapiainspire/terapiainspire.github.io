@@ -4239,9 +4239,7 @@ body.is-preload #header.alt .logo {
 	border-radius: 50%;
 }
 
-.footerlogo:hover {
-	transition: all 0.5s ease;
-  	transform: rotate(360deg);
+.footerlogo:hover { 	
 	opacity: 0.5;
 }
 
