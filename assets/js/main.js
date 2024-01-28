@@ -125,7 +125,7 @@
 			if( target.length ) {
 				event.preventDefault();
 				$('html, body').stop().animate({
-					scrollTop: target.offset().top - (200 * parseInt($("body").css("line-height")))
+					scrollTop: target.offset().top - (2000 * parseInt($("body").css("line-height")))
 				}, 1000);
 			}
 		});
