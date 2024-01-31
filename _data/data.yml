@@ -80,7 +80,9 @@ planos:
             A terapia além de possuir espaço para a aliviar a angústia e a dor, também abre possibilidade para que a pessoa consiga promover transformações internas através das intervenções do terapeuta. Com duração de 60 minutos, a terapia tem como foco a melhora da saúde mental, emocional e espiritual.
 
 agendar:
-  title: Agende agora sua Sessão
+  title:  'Agende agora sua Sessão '
+  palavra1: (Online)
+  palavra2: (Presencial)
   subtitle: CUIDE DA SUA SAÚDE MENTAL, EMOCIONAL E ESPIRITUAL, E INSPIRE!
   detalhes: |
             Para agendar uma sessão, entre em contato pelo telefone ou pelo WhatsApp. 
