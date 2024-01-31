@@ -1,45 +1,58 @@
-body.is-preload #header.alt > * {
+body.is-preload #header.alt>* {
 	opacity: 1;
 }
+
 body.is-preload #header.alt .logo {
 	-moz-transform: none;
 	-webkit-transform: none;
 	-ms-transform: none;
 	transform: none;
 }
- 
-@keyframes change {
-	0% { opacity: 1; }
-  20% { opacity: 0; }
-  50% { opacity: 0; }
-  70% { opacity: 0; }
-  100% { opacity: 1; }
-  }
 
-  .changing-words {
-	position: relative;
-	height: 50px;
-	overflow: hidden;
-	display: inline;
-  }
-  
-  
-  .changing-words {
-	position: relative;
-	height: 50px;
-	overflow: hidden;
-  }
-  
-  .changing-words span {
+@keyframes change {
+	0% {
+		opacity: 1;
+	}
+
+	20% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	70% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.changing-words {
+	position: relative; 
+}
+
+.changing-words span {
 	position: absolute;
 	opacity: 0;
 	animation: change 12s infinite;
-  }
-  
-  .changing-words span:nth-child(2) {
+}
+
+.changing-words span:nth-child(2) {
 	animation-delay: 4s;
-  }
-  
-  .changing-words span:nth-child(3) {
+}
+
+.changing-words span:nth-child(3) {
 	animation-delay: 8s;
-  }
+}
+
+@media screen and (max-width: 720px) { 
+	.changing-words span{
+		visibility: hidden;
+		animation: none;
+	}
+
+}
