@@ -12,14 +12,14 @@
 
 <nav id="nav">
     <ul>
-        <li class="navcontato"><a href="#Inspire" class="active">Inspire</a></li>
-        <li class="navcontato"><a href="#Diego" >Diego</a></li>
+        <li class="navcontato"><a href="#Inspire" class="active">Inspire</a></li>        
         <li class="navmenu" ><a href="#Terapia" >Terapia </a></li>
+        <li class="navmenu" ><a href="#Planos">Planos</a></li>        
+        <li class="navmenu" ><a href="#Logoterapia">{{logoterapia.title}}</a></li>        
+        <li class="navcontato"><a href="#Diego" >Diego</a></li>
         {% if agenda.visible and mostraragenda | default: false %}
         <li class="navmenu" ><a href="#Eventos">Eventos</a></li>
         {% endif %} 
-        <li class="navmenu" ><a href="#Logoterapia">{{logoterapia.title}}</a></li>
-        <li class="navmenu" ><a href="#Planos">Planos</a></li>
         <li class="navcontato"><a href="https://terapiainspire.com.br/whatsapp" > Agende <span class="icon brands fa-whatsapp"\> </span>(19) 97156-4256</a></li>   
     </ul>
 </nav>
