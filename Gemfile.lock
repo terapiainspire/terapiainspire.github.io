@@ -90,7 +90,7 @@ GEM
     connection_pool (2.4.1)
     crass (1.0.6)
     date (3.3.4)
-    dnsruby (1.71.0)
+    dnsruby (1.72.0)
       simpleidn (~> 0.2.1)
     drb (2.2.1)
     em-websocket (0.5.3)
