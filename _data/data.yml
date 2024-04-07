@@ -90,3 +90,7 @@ agendar:
             Para agendar uma sessão, entre em contato pelo telefone ou pelo WhatsApp. 
             Você também pode enviar uma mensagem pelo formulário abaixo. 
             Retornaremos o mais breve possível.
+
+galeria:
+  title: Galeria
+  video1: /videos/video1.mp4

@@ -79,8 +79,7 @@ section,
 summary,
 time,
 mark,
-audio,
-video {
+audio {
 	margin: 0;
 	padding: 0;
 	border: none;
@@ -4279,6 +4278,35 @@ body.is-preload #header.alt .logo {
 
 	#wrapper {
 		max-width: 100%;
+	}
+
+}
+
+video {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 100%;
+	font: inherit;
+	scroll-behavior: smooth;
+	text-decoration-line: none;
+	vertical-align: baseline;
+	width: 25%;
+	height: 30%;
+  }
+
+  @media screen and (max-width: 1280px) {
+	video {
+		width: 25%;
+	    height: 25%;
+	}
+
+	@media screen and (max-width: 736px) {
+		video {
+			width: calc(100% - 3rem);
+			height: calc(100% - 3rem);
+		}
+	
 	}
 
 }
