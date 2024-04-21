@@ -3,18 +3,33 @@
     <header class="major">
         <h2><div class="changing-words">{{ agendar.title }}<span>{{ agendar.palavra1 }}</span> <span>{{ agendar.palavra2 }} </span> </div></h2>
         <h4>{{ agendar.subtitle }}</h4>
-        <p>{{ agendar.detalhes }}
-            Conflitos nos Relacionamentos, Ansiedade, Depressão e Procrastinação Sessões
-            on-line ou presencial 👇🏻
+        <p>{{ agendar.detalhes | markdownify }}	</p>  
         </p>
     </header>
-    <footer class="major">
-        <ul class="actions special">
-            <li><a href="https://terapiainspire.com.br/instagram" class="button instagram"> Via Instagram <span class="icon brands fa-instagram"></span> </a></li>
-            <li><a href="https://terapiainspire.com.br/whatsapp" class="button whatsapp">Via WhatsApp <span class="icon brands fa-whatsapp"></span></a></li>
-            <li><a href="https://t.me/terapiainspire" class="button telegram">Grupo Telegram <span class="icon brands fa-telegram"></span></a></li>
-        </ul>
-    </footer>
-    <dt>Endereço</dt>
-    <dd>Rua 7 de setembro, 666 - Centro &bull; Araras, SP</dd>
+    <form  action="https://forms.un-static.com/forms/0ad147fbf57fd0ed71df2768a2eb5a2e9a63749a" method="post">
+    	<div class="row gtr-uniform">
+            <div class="col-6 col-12-xsmall">
+                <input type="text" name="nome" id="nome" value="" placeholder="Name" />
+            </div>
+            <div class="col-6 col-12-xsmall">
+                <input type="email" name="email" id="email" value="" placeholder="Email" />
+            </div>
+            <div class="col-6 col-12-xsmall">
+                <input type="text" name="phone" id="phone" value="" placeholder="Celular" />
+            </div>
+            <div  class="col-6 col-12-xsmall">
+                <textarea name="message" id="message" placeholder="Mensagem" rows="1"></textarea>
+            </div>
+            <br />
+            <div class="col-12">
+                <ul class="actions">
+                    <li><input type="submit" value="Enviar" class="primary" /></li>
+                    <li><input type="reset" value="Limpar" /></li>
+                    <li><a href="https://terapiainspire.com.br/instagram" class="button instagram"> Via Instagram <span class="icon brands fa-instagram"></span> </a></li>
+                    <li><a href="https://terapiainspire.com.br/whatsapp" class="button whatsapp">Via WhatsApp <span class="icon brands fa-whatsapp"></span></a></li>
+                    <li><a href="https://t.me/terapiainspire" class="button telegram">Grupo Telegram <span class="icon brands fa-telegram"></span></a></li>
+                </ul>
+            </div>
+        </div>                
+    </form>          
 </section>
