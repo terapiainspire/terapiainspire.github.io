@@ -2,11 +2,12 @@
 <section id="Galeria" class="main special">
     <header class="major">
         <h2>  {{ galeria.title }} </h2>	
-    <p>
-         
+    <p> 
     </p>
-    <video controls controlsList="nodownload" poster="{{ galeria.capa1 }}">
-        <source src="{{ galeria.video1 }}" type="video/mp4"> 
-      </video>
+       {% for video in galeria.video %}
+        <video controls controlsList="nodownload" poster="{{ video.capa }}">
+        <source src="{{ video.link }}" type="video/mp4"> 
+        </video>
+        {% endfor %}     
     </header>   
     </section>

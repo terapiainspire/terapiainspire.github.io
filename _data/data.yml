@@ -96,5 +96,13 @@ agendar:
 
 galeria:
   title: 'Nossa História'
-  video1: /videos/video1.mp4
-  capa1: /videos/capa1.jpg
+  video: 
+    - nome: video1
+      link: /videos/video1.mp4
+      capa: /videos/capa1.jpg
+    - nome: video2
+      link: /videos/video2.mp4
+      capa: /videos/capa1.jpg 
+    - nome: video3
+      link: /videos/video3.mp4
+      capa: /videos/capa1.jpg 
