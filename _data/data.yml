@@ -99,10 +99,10 @@ galeria:
   video: 
     - nome: video1
       link: /videos/video1.mp4
-      capa: /videos/capa1.jpg
+      capa: /videos/EU.jpg
     - nome: video2
       link: /videos/video2.mp4
-      capa: /videos/capa1.jpg 
+      capa: /videos/METODO.jpg 
     - nome: video3
       link: /videos/video3.mp4
-      capa: /videos/capa1.jpg 
+      capa: /videos/CONVERSA.jpg 
