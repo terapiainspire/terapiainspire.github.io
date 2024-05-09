@@ -78,7 +78,7 @@ GEM
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     base64 (0.2.0)
-    bigdecimal (3.1.7)
+    bigdecimal (3.1.8)
     builder (3.2.4)
     coffee-script (2.4.1)
       coffee-script-source
@@ -106,7 +106,6 @@ GEM
     faraday-net_http (3.1.0)
       net-http
     ffi (1.16.3)
-    ffi (1.16.3-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     github-pages (231)
@@ -166,11 +165,11 @@ GEM
       activesupport (>= 2)
       nokogiri (>= 1.4)
     http_parser.rb (0.8.0)
-    i18n (1.14.4)
+    i18n (1.14.5)
       concurrent-ruby (~> 1.0)
     io-console (0.7.2)
-    irb (1.12.0)
-      rdoc
+    irb (1.13.1)
+      rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jekyll (3.9.5)
       addressable (~> 2.4)
@@ -310,7 +309,7 @@ GEM
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
-    net-imap (0.4.10)
+    net-imap (0.4.11)
       date
       net-protocol
     net-pop (0.1.2)
@@ -319,7 +318,7 @@ GEM
       timeout
     net-smtp (0.5.0)
       net-protocol
-    nio4r (2.7.1)
+    nio4r (2.7.3)
     nokogiri (1.16.4-x64-mingw-ucrt)
       racc (~> 1.4)
     nokogiri (1.16.4-x86_64-linux)
@@ -377,7 +376,7 @@ GEM
       ffi (~> 1.0)
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
-    reline (0.5.2)
+    reline (0.5.6)
       io-console (~> 0.5)
     rexml (3.2.6)
     rouge (3.30.0)
@@ -391,7 +390,7 @@ GEM
     sawyer (0.9.2)
       addressable (>= 2.3.5)
       faraday (>= 0.17.3, < 3)
-    simpleidn (0.2.1)
+    simpleidn (0.2.2)
       unf (~> 0.1.4)
     stringio (3.1.0)
     terminal-table (1.8.0)
@@ -407,7 +406,6 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.9.1)
-    unf_ext (0.0.9.1-x64-mingw-ucrt)
     unicode-display_width (1.8.0)
     uri (0.13.0)
     webrick (1.8.1)
@@ -430,4 +428,4 @@ DEPENDENCIES
   webrick (~> 1.8.1)
 
 BUNDLED WITH
-   2.5.6
+   2.5.9
