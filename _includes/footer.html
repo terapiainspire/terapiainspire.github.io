@@ -8,16 +8,15 @@
     <section>
         <h2>{{ empresa.title }}</h2>
         <dl class="alt">
-            <dt>Endereço</dt>  <dd class="footerTab"><a href="{{ empresa.enderecolink }}">{{ empresa.endereco }}</a></dd>
-            <dt>Telefone</dt>  <dd class="footerTab"><a href="{{ empresa.telefonelink }}"> {{ empresa.telefone }}</a></dd>
-            <dt>E-mail</dt>    <dd class="footerTab"><a href="{{ empresa.emaillink }}"> {{ empresa.email }} </a></dd>
+            <dt>Endereço: </dt>  <dd class="footerTab"><a href="{{ empresa.enderecolink }}">{{ empresa.endereco }}</a></dd>
+            <dt>Telefone: </dt>  <dd class="footerTab"><a href="{{ empresa.telefonelink }}"> {{ empresa.telefone }}</a></dd>
+            <dt>E-mail: </dt>    <dd class="footerTab"><a href="{{ empresa.emaillink }}"> {{ empresa.email }} </a></dd>
         </dl>
         <ul class="icons">
-            <li><a href="{{ empresa.site }}/instagram" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-            <li><a href="{{ empresa.site }}/whatsapp" class="icon brands fa-whatsapp alt"><span class="label">WhatsApp</span></a></li>
-            <li><a href="{{ empresa.telegramlink }}" class="icon brands fa-telegram alt"><span class="label">Telegram</span></a></li>
-            <li><a href="{{ empresa.enderecolink }}" class="icon solid fa-location-dot alt"><span class="label">Google Maps</span></a></li>
-            <li><a href="{{ empresa.wazelink }}" class="icon brands fa-waze alt"><span class="label">Waze</span></a></li>
+            <li><a aria-label="Instagram" href="{{ empresa.site }}/instagram"><i class="icon brands fa fa-instagram alt"></i></a></li>
+            <li><a aria-label="Whatsapp" href="{{ empresa.site }}/whatsapp"><i class="icon brands fa fa-whatsapp alt"></i></a></li>
+            <li><a aria-label="Telegram" href="{{ empresa.telegramlink }}"><i class="icon brands fa fa-telegram alt"></i></a></li>
+            <li><a aria-label="Waze" href="{{ empresa.wazelink }}"><i class="icon brands fa fa-waze alt"></i></a></li>
         </ul>
     </section>
     <p class="copyright"><i class="fas fa-brands fa-creative-commons"></i>  Feito com <i class="fas fa-heart"></i> pelo <a href="https://www.linkedin.com/in/fabiohcnobre"  alt="FabioHCNobre" >FabioHCNobre</a> - Atualizado em: {{ site.time | date: '%d/%m/%y %H:%M' }}  </p>
