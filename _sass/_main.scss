@@ -187,10 +187,10 @@ html {
 
 body {
 	background-color: $theme-color;
-	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, $theme-color 1%, #270E36 85%);
-	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, $theme-color 1%, #381864 85%);
-	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, $theme-color 1%, #381864 85%);
-	background-image: url("images/overlay.png"), linear-gradient(45deg, $theme-color 1%, #381864 85%);
+	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, $fundocor 1%, $fundocor2 85%);
+	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, $fundocor 1%, $fundocor2 85%);
+	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, $fundocor 1%, $fundocor2 85%);
+	background-image: url("images/overlay.png"), linear-gradient(45deg, $fundocor 1%, $fundocor2 85%);
 }
 
 body.is-preload *,
@@ -209,7 +209,7 @@ body.is-preload *:after {
 /* Type - Outro Fundo  */
 
 body {
-	background-color: #192A40;
+	background-color:  $tema-cor;
 	color: #ffffff;
 	text-decoration-line: none;
 }
@@ -2447,7 +2447,8 @@ input[type="radio"]:focus+label:before {
 }
 
 .icon.brands:before {
-	font-family: 'Font Awesome 5 Brands';
+	font-family: 'Font Awesome 5 Brands';	
+	color: $tema-cor;
 }
 
 .icon.major {
@@ -2725,6 +2726,7 @@ ul.alt li:first-child {
 
 dl {
 	margin: 0 0 2em 0;
+	color: $tema-cor;
 }
 
 dl dt {
@@ -2760,7 +2762,7 @@ ul.alt li {
 }
 
 dl dt {
-	color: #ffffff;
+	color: $theme-color;
 }
 
 /* Actions */
@@ -3501,13 +3503,13 @@ body.is-preload #header.alt .logo {
 	-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 	-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 	transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-	background-color: #ffffff;
-	color: #636363;
+	background-color: $fundocor;
+	color: $fundocor;
 	position: sticky;
 	width: 64em;
 	max-width: calc(100%);
 	padding: 1em;
-	background-color: #f7f7f7;
+	background-color: $tema-cor;
 	border-top-left-radius: 0.25em;
 	border-top-right-radius: 0.25em;
 	border-bottom-left-radius: 0.25em;
@@ -3515,22 +3517,23 @@ body.is-preload #header.alt .logo {
 	cursor: default;
 	text-align: center;
 	top: 0;
-	z-index: 10;
+	z-index: 10;	
+	margin-bottom: 5px;
 }
 
 #nav input,
 #nav select,
 #nav textarea {
-	color: #636363;
+	color: $tema-cor;
 }
 
 #nav a:hover {
-	color: #636363;
+	color: $tema-cor;
 }
 
 #nav strong,
 #nav b {
-	color: #636363;
+	color: $tema-cor;
 }
 
 #nav h1,
@@ -3543,15 +3546,16 @@ body.is-preload #header.alt .logo {
 }
 
 #nav blockquote {
-	border-left-color: #dddddd;
+	border-left-color: $tema-cor;
 }
 
 #nav code {
-	background: rgba(222, 222, 222, 0.25);
+	background: $tema-cor;
 	border-color: #dddddd;
 }
 
 #nav hr {
+	background: $tema-cor;
 	border-bottom-color: #dddddd;
 }
 
@@ -3592,10 +3596,12 @@ body.is-preload #header.alt .logo {
 }
 
 #nav ul li a:hover {
-	background-color: rgba(222, 222, 222, 0.25);
+	color: #ffffff;
+	background-color: $tema-cor;
 }
 
 #nav ul li a.active {
+	color: $tema-cor;
 	background-color: #ffffff;
 	box-shadow: none;
 }
@@ -3604,7 +3610,7 @@ body.is-preload #header.alt .logo {
 	position: sticky;
 	top: 0;
 	padding: 0.5em 0.5em;
-	background-color: rgba(247, 247, 247, 0.95);
+	background-color: $tema-cor;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	z-index: 10;
@@ -4150,7 +4156,8 @@ body.is-preload #header.alt .logo {
 	width: calc(100% + 2em);
 	margin: 0 0 3em -2em;
 	border: none;
-	text-decoration-line: color #000000;
+	text-decoration-line: color $tema-cor;
+	color: $tema-cor;
 }
 
 #footer>* {
@@ -4158,6 +4165,7 @@ body.is-preload #header.alt .logo {
 	margin-left: 2em;
 	border: none;
 	text-decoration-line: none;
+	color: $tema-cor;
 }
 
 #footer .copyright {
@@ -4166,7 +4174,21 @@ body.is-preload #header.alt .logo {
 	font-size: 0.8em;
 	text-align: center;
 	border: none;
-	text-decoration-line: none;
+	text-decoration-line: none;	
+	color: $tema-cor;
+}
+
+#footer .section {
+	color: $tema-cor;
+}
+
+#footer h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $tema-cor;
 }
 
 @media screen and (max-width: 1280px) {
