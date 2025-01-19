@@ -5,30 +5,10 @@
         <h4>{{ agendar.subtitle }}</h4>
         <p>{{ agendar.detalhes | markdownify }}	</p>  
         </p>
+        <ul class="actions"> 
+            <li><a href="{{ empresa.site }}/whatsapp" class="button whatsapp">WhatsApp <i class="fa fa-whatsapp" ></i></a></li>
+            <li><a href="{{ empresa.site }}/instagram" class="button instagram">Instagram <i class="fa fa-instagram" ></i></span></a></li>
+            <li><a href="{{ empresa.emaillink }}" class="button telegram"> E-mail <i class="fa-solid fa-envelope"></i></span></a></li>
+        </ul> 
     </header>
-    <form  action="https://forms.un-static.com/forms/0ad147fbf57fd0ed71df2768a2eb5a2e9a63749a" method="post">
-    	<div class="row gtr-uniform">
-            <div class="col-6 col-12-xsmall">
-                <input type="text" name="nome" id="nome" value="" placeholder="Nome" />
-            </div>
-            <div class="col-6 col-12-xsmall">
-                <input type="email" name="email" id="email" value="" placeholder="E-mail" />
-            </div>
-            <div class="col-6 col-12-xsmall">
-                <input type="text" name="phone" id="phone" value="" placeholder="Celular" />
-            </div>
-            <div  class="col-6 col-12-xsmall">
-                <textarea name="message" id="message" placeholder="Deixe sua Mensagem" rows="2"></textarea>
-            </div>
-            <br />
-            <div class="col-12">
-                <ul class="actions"> 
-                        <li><input type="submit" value="Enviar" class="primary" /></li>
-                        <li><input type="reset" value="Limpar" /></li>  
-                        <li><a href="https://terapiainspire.com.br/whatsapp" class="button whatsapp">WhatsApp<i class="fa fa-whatsapp" ></i></a></li>
-                        <li><a href="{{ empresa.site }}/instagram" class="button instagram">Instagram<i class="fa fa-instagram" ></i></span></a></li>
-                </ul>
-            </div>
-        </div>                
-    </form>          
 </section>
