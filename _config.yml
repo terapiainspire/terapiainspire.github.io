@@ -38,7 +38,7 @@ plugins:
   - jekyll-sitemap
 
 # Tracker
-analytics: G-HCHGR8VDSX
+analytics: G-HCHGR8VDSX 
 adsgoogle: UA-240366032-1
 
 sass:
