@@ -1,25 +1,21 @@
-{% assign logoterapia = site.data.data.logoterapia %}
 {% assign agenda = site.data.agenda.agenda %}
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% assign mostraragenda = false %}
 {% for compromisso in agenda.compromisso %}
-{% capture dateinicial1 %}{{compromisso.dateinicial | date: '%s'}}{% endcapture %}
-{% capture datefinal1 %}{{compromisso.datefinal | date: '%s'}}{% endcapture %}
-{% if dateinicial1 < datenow and datefinal1 > datenow and compromisso.visible %}
-    {% assign mostraragenda = true %}
-{% endif %}
+    {% capture dateinicial1 %}{{compromisso.dateinicial | date: '%s'}}{% endcapture %}
+    {% capture datefinal1 %}{{compromisso.datefinal | date: '%s'}}{% endcapture %}
+    {% if dateinicial1 < datenow and datefinal1 > datenow and compromisso.visible %}
+        {% assign mostraragenda = true %}
+    {% endif %}
 {% endfor %} 
-
 <nav id="nav">
-    <ul>
-        <li class="navcontato"><a href="#Inspire" class="active">Inspire</a></li>        
-        <li class="navmenu" ><a href="#Terapia" >Terapia </a></li>
-        <li class="navmenu" ><a href="#Planos">Planos</a></li>        
-        <li class="navmenu" ><a href="#Logoterapia">{{logoterapia.title}}</a></li>        
-        <li class="navcontato"><a href="#Diego" >Diego</a></li>
-        {% if agenda.visible and mostraragenda | default: false %}
-        <li class="navmenu" ><a href="#Eventos">Eventos</a></li>
-        {% endif %} 
-        <li class="navcontato"><a href="https://terapiainspire.com.br/whatsapp" > Agende (19) 97156-4256 <i class="fa fa-whatsapp"></i></a></li>   
+    <ul>{% if page.language == "en" %}{% assign data = site.data.dataen %}{% else %}{% assign data = site.data.data %}{% endif %} 
+        <li class="navcontato"><a href="#Inspire" class="active">{{data.menu.item1}}</a></li>        
+        <li class="navmenu" ><a href="#Terapia" >{{data.menu.item2}} </a></li>
+        <li class="navmenu" ><a href="#Planos">{{data.menu.item3}}</a></li>        
+        <li class="navmenu" ><a href="#Logoterapia">{{data.menu.item4}}</a></li>        
+        <li class="navcontato"><a href="#Diego" >{{data.menu.item5}}</a></li>
+        {% if agenda.visible and mostraragenda | default: false %}<li class="navmenu" ><a href="#Eventos">{{data.menu.item6}} </a></li>{% endif %} 
+        <li class="navcontato"><a href="https://terapiainspire.com.br/whatsapp" >{{data.menu.item7}} <i class="fa fa-whatsapp"></i></a></li>   
     </ul>
 </nav>

@@ -13,12 +13,24 @@ empresa:
     telefonelink: https://api.whatsapp.com/send/?phone=5519971564256&text&app_absent=0
     telegramlink: https://t.me/terapiainspire
     email: terapiainspire@gmail.com
-    emaillink : "mailto:terapiainspire@gmail.com"
+    emaillink : "mailto:terapiainspire@gmail.com"     
+    languageVersion: Site em português
+    languageurl: ../
     detalhes: |
       Do you know that feeling of being lost? Or that internal search for answers and understanding of several complex issues in your life? \
       I have the key to your concerns. Those who go through the Inspire Therapy process make significant changes and transformations in their lives, achieving greater clarity about their personal history and gaining health and well-being. \
       Have you ever felt frustrated because you couldn't achieve your goals? \
       In many cases, stress occurs due to a lack of organization. Working with reduced stress levels is essential to developing and achieving your goals, so that you can face your tasks and challenges with greater clarity and tranquility.
+
+menu:
+  item1: Inspire
+  item2: Therapy
+  item3: Plans
+  item4: Objectives
+  item5: Diego
+  item6: Events
+  item7: Booking Now
+
 
 terapia:
   title: What is Systemic Therapy, Psychoanalysis and Logotherapy?
@@ -108,3 +120,9 @@ galeria:
     - nome: video3
       link: /videos/video3.mp4
       capa: /videos/CONVERSA.jpg 
+
+footer:  
+     title:  ' Made with ❤ by '
+     subtitle:  'FabioHCNobre'
+     link:  https://fabiohcnobre.dev.br
+     update: 'Last update on '

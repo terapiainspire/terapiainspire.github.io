@@ -1,16 +1,15 @@
-{% assign empresa = site.data.data.empresa %}
-<footer id="footer">
-    <section>
+<footer id="footer"> 
+    <section>{% if page.language == "en" %}{% assign data = site.data.dataen %}{% else %}{% assign data = site.data.data %}{% endif %} 
         <span ><a href="{{ site.url }}"><img src="{{ site.logo }}" class="footerlogo" alt="Logo" /></a></span>
-        <a href="{{ site.url }}"><h2>{{ empresa.nome }}</h2></a>
-        <p>{{ empresa.slogan }}</p>
+        <a href="{{ site.url }}"><h2>{{ data.empresa.nome }}</h2></a>
+        <p>{{ data.empresa.slogan }}</p>
     </section>
     <section>
-        <h2>{{ empresa.title }}</h2>
+        <h2>{{ data.empresa.title }}</h2>
         <dl class="alt">
-            <dt>Endereço: </dt>  <dd class="footerTab"><a href="{{ empresa.enderecolink }}">{{ empresa.endereco }} <i class="fa-solid fa-location-dot"></i></a></dd>
-            <dt>Telefone: </dt>  <dd class="footerTab"><a href="{{ empresa.telefonelink }}"> {{ empresa.telefone }} <i class="fa fa-whatsapp"></i></a></dd>
-            <dt>E-mail: </dt>    <dd class="footerTab"><a href="{{ empresa.emaillink }}"> {{ empresa.email }} <i class="fa-solid fa-envelope"></i></a></dd>
+            <dt><i class="fa-solid fa-location-dot"></i></dt><dd class="footerTab"><a href="{{ empresa.enderecolink }}">{{ data.empresa.endereco }}</a></dd>
+            <dt><i class="fa fa-whatsapp"></i></dt><dd class="footerTab"><a href="{{ empresa.telefonelink }}"> {{ data.empresa.telefone }}</a></dd>
+            <dt><i class="fa-solid fa-envelope"></i></dt><dd class="footerTab"><a href="{{ empresa.emaillink }}"> {{ data.empresa.email }}</a></dd>
             <ul class="icons">
                 <li><a aria-label="Instagram" href="{{ empresa.site }}/instagram"><i class="icon brands fa fa-instagram alt"></i></a></li>
                 <li><a aria-label="Telegram" href="{{ empresa.telegramlink }}"><i class="icon brands fa fa-telegram alt"></i></a></li>
@@ -18,5 +17,6 @@
             </ul>
         </dl>
     </section>
-    <p class="copyright"><i class="fas fa-brands fa-creative-commons"></i>  Feito com <i class="fas fa-heart"></i> pelo <a href="https://www.linkedin.com/in/fabiohcnobre"  alt="FabioHCNobre" >FabioHCNobre</a> - Atualizado em: {{ site.time | date: '%d/%m/%y %H:%M' }}  </p>
+    <p class="copyright"><a href="{{  data.empresa.languageurl }}">{{  data.empresa.languageVersion }} </a>
+    <i class="fas fa-brands fa-creative-commons"></i>{{ data.footer.title }}<a href="{{ data.footer.link }}" target="_blank" rel="nofollow">{{ data.footer.subtitle }}</a> - {{ data.footer.update }}{{ site.time | date: '%H:%M %d/%m/%Y' }}  </p>
 </footer>
