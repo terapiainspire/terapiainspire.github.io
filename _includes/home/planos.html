@@ -1,9 +1,7 @@
-{% assign planos = site.data.data.planos %}
 <section id="Planos" class="main special">
-	<header class="major">
+	<header class="major">{% assign planos = data.planos %}
 		<h2>  {{ planos.title }} </h2>					
 	</header>
-
 	<div class="row">
 		{% for plano in planos.plano %}
         <div class="col-6 col-12-medium">

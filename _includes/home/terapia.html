@@ -1,6 +1,5 @@
-{% assign terapia = site.data.data.terapia %}
 <section id="Terapia" class="main special">
-    <header class="major">
+    <header class="major">{% assign terapia = data.terapia %}
         <h2>  {{ terapia.title }} </h2>	
     <p>
         {{ terapia.detalhes | markdownify }}
