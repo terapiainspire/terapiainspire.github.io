@@ -1,11 +1,11 @@
 #
 # Informações do site
 #
-empresa:  
-    title: Entre em contato conosco.
+empresa:
+    title: Contact us
     imagemPainel : ../images/inspire.png
     nome: Terapia Inspire
-    slogan: Cuide da sua saúde mental, emocional e espiritual
+    slogan: Take care of your mental, emotional and spiritual health 
     endereco: Rua 7 de setembro, 666 - Centro &bull; Araras, SP
     enderecolink: https://g.page/r/CSKVjwmt_FcfEBA
     wazelink: https://www.waze.com/en/live-map/directions/br/sp/terapia-inspire?place=ChIJkc-Co0h3yJQRIpWPCa38Vx8
@@ -15,89 +15,89 @@ empresa:
     email: terapiainspire@gmail.com
     emaillink : "mailto:terapiainspire@gmail.com"
     detalhes: |
-              Sabe aquela sensação de estar perdido? Ou aquela busca interna por respostas e entendimentos de várias questões complexas da sua vida? \
-              Eu tenho a chave para suas inquietações. Quem passa pelo processo da Terapia Inspire, realiza mudanças e transformações significativas em sua vida alcançando maior clareza da sua história pessoal e ganha saúde e bem-estar. \
-              Você já se sentiu frustrado por não conseguir alcançar seus objetivos? \
-              Em muitos casos, o estresse ocorre em virtude da falta de organização. Trabalhar com níveis reduzidos de estresse é fundamental para desenvolver e alcançar seus objetivos, para que você consiga encarar as suas tarefas e desafios com mais clareza e tranquilidade.
+      Do you know that feeling of being lost? Or that internal search for answers and understanding of several complex issues in your life? \
+      I have the key to your concerns. Those who go through the Inspire Therapy process make significant changes and transformations in their lives, achieving greater clarity about their personal history and gaining health and well-being. \
+      Have you ever felt frustrated because you couldn't achieve your goals? \
+      In many cases, stress occurs due to a lack of organization. Working with reduced stress levels is essential to developing and achieving your goals, so that you can face your tasks and challenges with greater clarity and tranquility.
 
 terapia:
-  title: O que é Terapia Sistêmica, Psicanálise e Logoterapia?
+  title: What is Systemic Therapy, Psychoanalysis and Logotherapy?
   detalhes: |
-              A Terapia Sistêmica é uma abordagem terapêutica para refletir sobre o sistema familiar e a repetição dos padrões comportamentais, buscando superar as crenças limitantes.
+              Systemic Therapy is a therapeutic approach to reflect on the family system and the repetition of behavioral patterns, seeking to overcome limiting beliefs.
               
-              A psicanálise é especialmente eficaz na abordagem e na resolução de traumas profundos enraizados no inconsciente, trabalhando para integrar experiências passadas de maneira significativa e curativa.
+              Psychoanalysis is especially effective in addressing and resolving deep-rooted traumas in the unconscious, working to integrate past experiences in a meaningful and healing way.
               
-              A Logoterapia é uma abordagem existencial, fundada por Viktor Frankl, que comprrende o ser humano na sua dimensão física, psíquica, emocional e espiritual, e tem como principios norteadores a busca pelo sentido da vida, apesar do sofrimento humano.
+              Logotherapy is an existential approach, founded by Viktor Frankl, which understands the human being in his/her physical, psychic, emotional and spiritual dimensions, and has as its guiding principles the search for the meaning of life, despite human suffering.
               
-              O Plano de ação da Terapia tem como objetivo favorecer o desenvolvimento pessoal, mental, emocional e espiritual em alta performance. Para isso, é preciso expansão da consciência, autoconhecimento e transformação interior e de atitudes para alcançar o sucesso e a prosperidade, tornando sua vida mais produtiva, realizada e feliz.
+              The Therapy Action Plan aims to promote personal, mental, emotional and spiritual development in high performance. To do this, it is necessary to expand consciousness, self-knowledge and internal transformation and attitudes to achieve success and prosperity, making your life more productive, fulfilled and happy.
 
 about:
-  title: Olá, sou o Diego Santos!
-  imagem: images/diego.jpg
+  title: Hello, I'm Diego Santos!
+  imagem: ../images/diego.jpg
   detalhes: |
-              Formado em Psicanálise, Terapia Sistêmica, Logoterapia, Jornalismo, Filosofia, Teologia, Coaching e Liderança, eu trabalho, principalmente, com pessoas como você que busca reduzir o seu nível de estresse, organizar a sua rotina, gerenciar o seu tempo para aumentar a sua produtividade e sua qualidade de vida, focar no que realmente importa e eliminar as distrações, superar o medo e a ansiedade diante de uma tomada de decisão importante e desenvolver uma espiritualidade que alcance a harmonia e a paz interior.
+      With degrees in Psychoanalysis, Systemic Therapy, Logotherapy, Journalism, Philosophy, Theology, Coaching and Leadership, I work mainly with people like you who seek to reduce their stress levels, organize their routine, manage their time to increase their productivity and quality of life, focus on what really matters and eliminate distractions, overcome fear and anxiety when faced with important decisions and develop a spirituality that achieves harmony and inner peace.
 
-              Há 16 anos compreendendo, analisando e treinando pessoas, quero compartilhar com você a minha experiência pessoal e profissional de aprimoramento na busca do autoconhecimento e do reconhecimento do meu propósito de vida que me faz ser resiliente diante dos obstáculos e a superar os desafios com paciência, sabedoria, coragem e determinação.
+      Having understood, analyzed and trained people for 16 years, I want to share with you my personal and professional experience of improvement in the search for self-knowledge and recognition of my life purpose, which makes me resilient in the face of obstacles and overcome challenges with patience, wisdom, courage and determination.
 
 logoterapia:
-  title: Objetivos
+  title: Objectives
   image: ../images/pessoas.jpg
   detalhes: |
-            O Plano de Terapia tem como objetivo favorecer o desenvolvimento pessoal e espiritual em alta performance, identificando os pensamentos e atitudes da sua história de vida que te impedem de superar os conflitos para alcançar outro nível em sua vida, tornando-se mais produtiva, realizada e feliz. A Terapia com o método da Logoterapia de Viktor Frankl é um dos instrumentos mais eficazes de desenvolvimento humano. Ao entrar nesse universo, você será capaz de sentir o poder da transformação diariamente, tanto no âmbito pessoal como no espiritual. As sessões funcionam por meio de perguntas que levam você à reflexão, potencializando seus pontos fortes, trabalhando seus pontos de melhoria e visando a eliminação de pensamentos limitantes, o que tem um impacto real em todos aspectos da sua vida.
+            The Therapy Plan aims to promote high-performance personal and spiritual development, identifying the thoughts and attitudes in your life story that prevent you from overcoming conflicts and reaching another level in your life, becoming more productive, fulfilled and happy. Therapy with Viktor Frankl's Logotherapy method is one of the most effective instruments for human development. By entering this universe, you will be able to feel the power of transformation daily, both on a personal and spiritual level. The sessions work through questions that lead you to reflect, enhancing your strengths, working on your areas for improvement and aiming to eliminate limiting thoughts, which has a real impact on all aspects of your life.
   beneficios:
-      - titulo: 'No DESENVOLVIMENTO PESSOAL vamos:'
+      - titulo: 'In PERSONAL DEVELOPMENT we will:'
         detalhes: |
-                <li> Elaborar um Projeto de vida
-                <li> Superar crenças limitantes
-                <li> Desenvolver a gestão emocional
-                <li> Buscar por respostas para questões complexas
-                <li> Trabalhar a confiança em si mesmo
-                <li> Alcançar com maior agilidade e assertividade os seus objetivos
-                <li> Construir uma visão de futuro clara e real
-      - titulo: 'No DESENVOLVIMENTO PROFISSIONAL vamos:'
+                  <li> Develop a Life Project
+                  <li> Overcome limiting beliefs
+                  <li> Develop emotional management
+                  <li> Search for answers to complex questions
+                  <li> Work on self-confidence
+                  <li> Achieve your goals with greater agility and assertiveness
+                  <li> Build a clear and realistic vision of the future
+      - titulo: 'In PROFESSIONAL DEVELOPMENT we will:'
         detalhes: |
-                <li> Elaborar um Plano de carreira
-                <li> Aumentar a produtividade
-                <li> Atingir Metas
-                <li> Solucionar conflitos
-                <li> Reduzir o nível de estresse
-                <li> Desenvolver novas habilidades
-                <li> Trabalhar o conhecimento contínuo
-      - titulo: 'No DESENVOLVIMENTO ESPIRITUAL vamos:'
+                  <li> Develop a Career Plan
+                  <li> Increase Productivity
+                  <li> Achieve Goals
+                  <li> Resolve Conflicts
+                  <li> Reduce Stress Levels
+                  <li> Develop New Skills
+                  <li> Work on Continuous Knowledge
+      - titulo: 'In SPIRITUAL DEVELOPMENT we will:'
         detalhes: |
-                <li> Buscar o equilíbrio espiritual 
-                <li> Desenvolver o alinhamento de propósitos
-                <li> Melhorar os relacionamentos humanos
-                <li> Aprender a Perdoar a si mesmo
-                <li> Maior consciência da força Interior
-                <li> Fortalecer as emoções positivas
-                <li> Aprender a desligar-se do passado e Viver o Aqui e Agora
+                  <li> Seek spiritual balance
+                  <li> Develop alignment of purposes
+                  <li> Improve human relationships
+                  <li> Learn to forgive yourself
+                  <li> Greater awareness of inner strength
+                  <li> Strengthen positive emotions
+                  <li> Learn to disconnect from the past and live in the here and now
 
 planos:
-  title: Planos
+  title: Plans
   plano:
-  - nome: ACOLHIMENTO
+  - nome: Greeting
     detalhes: |
-              As sessões de acolhimento terapêutico têm o objetivo de trazer alívio das angústias e tensões. 
-              Com duração de 30 minutos, pode ser realizada mais de uma vez caso a pessoa sinta necessidade. 
-              Porém, é importante conversar com o terapeuta para definir a melhor direção. 
-  - nome: TERAPIA
+              Therapeutic support sessions aim to provide relief from anxiety and tension.
+              Lasting 30 minutes, they can be performed more than once if the person feels the need.
+              However, it is important to talk to the therapist to determine the best direction.. 
+  - nome: THERAPY
     detalhes: |
-            A terapia além de possuir espaço para a aliviar a angústia e a dor, também abre possibilidade para que a pessoa consiga promover transformações internas através das intervenções do terapeuta. Com duração de 60 minutos, a terapia tem como foco a melhora da saúde mental, emocional e espiritual.
+            In addition to providing a space to alleviate anguish and pain, therapy also opens up the possibility for the person to promote internal transformations through the therapist's interventions. Lasting 60 minutes, the therapy focuses on improving mental, emotional and spiritual health.
 
 agendar:
-  title:  'Agende agora sua Sessão '
+  title:  'Schedule your Session now '
   palavra1: (Online)
-  palavra2: (Presencial)
-  subtitle: CUIDE DA SUA SAÚDE MENTAL, EMOCIONAL E ESPIRITUAL, E INSPIRE!
+  palavra2: (In person)
+  subtitle: TAKE CARE OF YOUR MENTAL, EMOTIONAL AND SPIRITUAL HEALTH, AND INSPIRE!
   detalhes: |
-            Conflitos nos Relacionamentos, Ansiedade, Depressão e Procrastinação Sessões on-line ou presencial 👇🏻 \
-            Para agendar uma sessão, entre em contato via Instagram, WhatsApp e Telegram. \
-            Você também pode enviar uma mensagem pelo formulário abaixo. \
-            Retornaremos o mais breve possível.
+            Relationship Conflicts, Anxiety, Depression and Procrastination Online or in-person sessions 👇🏻 \
+            To schedule a session, contact us via Instagram, WhatsApp and Telegram. \
+            You can also send a message using the form below. \
+            We will get back to you as soon as possible.
 
 galeria:
-  title: 'Nossa História'
+  title: 'Our History'
   video: 
     - nome: video1
       link: /videos/video1.mp4

@@ -10,4 +10,3 @@ language: en
 {% include home/logoterapia.html %}
 {% include about.html %}
 {% include home/agenda.html %}
-{% include home/galeria.html %} 
