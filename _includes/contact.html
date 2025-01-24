@@ -1,13 +1,12 @@
-{% assign agendar = site.data.data.agendar %}
 <section id="Agendar" class="main special">
-    <header class="major">
-        <h2><div class="changing-words">{{ agendar.title }}<span>{{ agendar.palavra1 }}</span> <span>{{ agendar.palavra2 }} </span> </div></h2>
-        <h4>{{ agendar.subtitle }}</h4>
-        <p>{{ agendar.detalhes | markdownify }}</p>
+    <header class="major">{% if page.language == "en" %}{% assign data = site.data.dataen %}{% else %}{% assign data = site.data.data %}{% endif %} 
+        <h2><div class="changing-words">{{ data.agendar.title }}<span>{{ data.agendar.palavra1 }}</span> <span>{{ data.agendar.palavra2 }} </span> </div></h2>
+        <h4>{{ data.agendar.subtitle }}</h4>
+        <p>{{ data.agendar.detalhes | markdownify }}</p>
         <ul class="actions"> 
-            <li><a href="{{ empresa.site }}/whatsapp" class="button whatsapp">WhatsApp<i class="fa fa-whatsapp" ></i></a></li>
-            <li><a href="{{ empresa.site }}/instagram" class="button instagram">Instagram <i class="fa fa-instagram" ></i></a></li>
-            <li><a href="{{ empresa.emaillink }}" class="button telegram"> E-mail <i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="../whatsapp" class="button whatsapp">WhatsApp<i class="fa fa-whatsapp" ></i></a></li>
+            <li><a href="../instagram" class="button instagram">Instagram <i class="fa fa-instagram" ></i></a></li>
+            <li><a href="{{ data.empresa.emaillink }}" class="button telegram"> E-mail <i class="fa-solid fa-envelope"></i></a></li>
         </ul> 
     </header>
 </section>

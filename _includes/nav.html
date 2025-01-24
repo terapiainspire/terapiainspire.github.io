@@ -1,0 +1,7 @@
+<nav id="nav">
+    <ul>{% if page.language == "en" %}{% assign data = site.data.dataen %}{% else %}{% assign data = site.data.data %}{% endif %} 
+        <li class="navcontato"><a href="../" class="active">{{data.menu.item1}}</a></li>     
+        <li class="navcontato"><a href="#Diego" >{{data.menu.item5}}</a></li>
+        <li class="navcontato"><a href="https://terapiainspire.com.br/whatsapp" >{{data.menu.item7}} <i class="fa fa-whatsapp"></i></a></li>   
+    </ul>
+</nav>

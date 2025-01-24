@@ -1,12 +1,11 @@
-{% assign about = site.data.data.about %}
-<section id="Diego" class="main">
-	<div class="spotlight">
+<section id="Diego" class="main"> 
+	<div class="spotlight">{% if page.language == "en" %}{% assign data = site.data.dataen %}{% else %}{% assign data = site.data.data %}{% endif %} 
 		<div class="content">
 			<header class="major">
-				<h2>{{ about.title }}</h2>
+				<h2>{{ data.about.title }}</h2>
 			</header>
-			<p>{{ about.detalhes | markdownify }}</p>
+			<p>{{ data.about.detalhes | markdownify }}</p>
 		</div>
-		<span class="imageAbout"><img src="{{ about.imagem }}" alt="" /></span>
+		<span class="imageAbout"><img src="{{ data.about.imagem }}" alt="" /></span>
 	</div>
 </section>
