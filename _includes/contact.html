@@ -1,7 +1,7 @@
 <section id="Agendar" class="main special">
     <header class="major">{% if page.language == "en" %}{% assign data = site.data.dataen %}{% else %}{% assign data = site.data.data %}{% endif %} 
         <h2><div class="changing-words">{{ data.agendar.title }}<span>{{ data.agendar.palavra1 }}</span> <span>{{ data.agendar.palavra2 }} </span> </div></h2>
-        <h4>{{ data.agendar.subtitle }}</h4>
+        <h3>{{ data.agendar.subtitle }}</h4>
         <p>{{ data.agendar.detalhes | markdownify }}</p>
         <ul class="actions"> 
             <li><a href="../whatsapp" class="button whatsapp">WhatsApp<i class="fa fa-whatsapp" ></i></a></li>
