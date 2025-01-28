@@ -59,31 +59,31 @@ logoterapia:
   beneficios:
       - titulo: 'No DESENVOLVIMENTO PESSOAL vamos:'
         detalhes: |
-                <li> Elaborar um Projeto de vida
-                <li> Superar crenças limitantes
-                <li> Desenvolver a gestão emocional
-                <li> Buscar por respostas para questões complexas
-                <li> Trabalhar a confiança em si mesmo
-                <li> Alcançar com maior agilidade e assertividade os seus objetivos
-                <li> Construir uma visão de futuro clara e real
+                <ul><li> Elaborar um Projeto de vida </li> 
+                <li> Superar crenças limitantes </li> 
+                <li> Desenvolver a gestão emocional </li> 
+                <li> Buscar por respostas para questões complexas </li> 
+                <li> Trabalhar a confiança em si mesmo </li> 
+                <li> Alcançar com maior agilidade e assertividade os seus objetivos </li> 
+                <li> Construir uma visão de futuro clara e real </li> </ul>
       - titulo: 'No DESENVOLVIMENTO PROFISSIONAL vamos:'
         detalhes: |
-                <li> Elaborar um Plano de carreira
-                <li> Aumentar a produtividade
-                <li> Atingir Metas
-                <li> Solucionar conflitos
-                <li> Reduzir o nível de estresse
-                <li> Desenvolver novas habilidades
-                <li> Trabalhar o conhecimento contínuo
+                <ul><li> Elaborar um Plano de carreira </li> 
+                <li> Aumentar a produtividade </li> 
+                <li> Atingir Metas </li> 
+                <li> Solucionar conflitos </li> 
+                <li> Reduzir o nível de estresse </li> 
+                <li> Desenvolver novas habilidades </li> 
+                <li> Trabalhar o conhecimento contínuo </li> </ul>
       - titulo: 'No DESENVOLVIMENTO ESPIRITUAL vamos:'
         detalhes: |
-                <li> Buscar o equilíbrio espiritual 
-                <li> Desenvolver o alinhamento de propósitos
-                <li> Melhorar os relacionamentos humanos
-                <li> Aprender a Perdoar a si mesmo
-                <li> Maior consciência da força Interior
-                <li> Fortalecer as emoções positivas
-                <li> Aprender a desligar-se do passado e Viver o Aqui e Agora
+                <ul><li> Buscar o equilíbrio espiritual </li> 
+                <li> Desenvolver o alinhamento de propósitos </li> 
+                <li> Melhorar os relacionamentos humanos </li> 
+                <li> Aprender a Perdoar a si mesmo </li> 
+                <li> Maior consciência da força Interior </li> 
+                <li> Fortalecer as emoções positivas </li> 
+                <li> Aprender a desligar-se do passado e Viver o Aqui e Agora </li></ul>
 
 planos:
   title: Planos
