@@ -1,8 +1,11 @@
-<section id="Terapia" class="main special">
-    <header class="major">{% assign terapia = data.terapia %}
-        <h2>  {{ terapia.title }} </h2>	
+<section id="Terapia" class="main"> 
+    <div class="content">
+        <header class="major">
+            <h2>{{ data.terapia.title }}</h2>
+        </header>
+    </div>       
     <p>
-        {{ terapia.detalhes | markdownify }}
+        {{  data.terapia.detalhes | markdownify }}
     </p>
     </header>   
     </section>

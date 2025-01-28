@@ -1,6 +1,10 @@
-<section id="Inspire" class="main special">  
-    <header class="major">{% assign empresa = data.empresa %}
-        <h2>{{ empresa.nome }}</h2>		
-        <p>{{ empresa.detalhes | markdownify }}	</p> 		
-    </header> 
+<section id="Inspire" class="main">
+    <div class="content">
+        <header class="major">
+            <h2>{{ data.empresa.nome }}</h2>	
+        </header> 
+        <div class="spotlight">
+            <p>{{ data.empresa.detalhes | markdownify }}	</p> 
+        </div>			
+    </div>     
 </section>
