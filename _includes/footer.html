@@ -10,12 +10,15 @@
             <dt><i class="fa-solid fa-location-dot"></i></dt><dd class="footerTab"><a href="{{ empresa.enderecolink }}">{{ data.empresa.endereco }}</a></dd>
             <dt><i class="fa fa-whatsapp"></i></dt><dd class="footerTab"><a href="{{ empresa.telefonelink }}"> {{ data.empresa.telefone }}</a></dd>
             <dt><i class="fa-solid fa-envelope"></i></dt><dd class="footerTab"><a href="{{ empresa.emaillink }}"> {{ data.empresa.email }}</a></dd>
-            <ul class="icons">
-                <li><a aria-label="Instagram" href="{{ empresa.site }}/instagram"><i class="icon brands fa fa-instagram alt"></i></a></li>
-                <li><a aria-label="Telegram" href="{{ empresa.telegramlink }}"><i class="icon brands fa fa-telegram alt"></i></a></li>
-                <li><a aria-label="Waze" href="{{ empresa.wazelink }}"><i class="icon brands fa fa-waze alt"></i></a></li>
-            </ul>
+            <dt></dt><dd>
+                <ul class="icons">
+                    <li><a aria-label="Instagram" href="{{ empresa.site }}/instagram"><i class="icon brands fa fa-instagram alt"></i></a></li>
+                    <li><a aria-label="Telegram" href="{{ empresa.telegramlink }}"><i class="icon brands fa fa-telegram alt"></i></a></li>
+                    <li><a aria-label="Waze" href="{{ empresa.wazelink }}"><i class="icon brands fa fa-waze alt"></i></a></li>
+                </ul> 
+            </dd>
         </dl>
+       
     </section>
     <p class="copyright"><a href="{{  data.empresa.languageurl }}">{{  data.empresa.languageVersion }} </a>
     <i class="fas fa-brands fa-creative-commons"></i>{{ data.footer.title }}<a href="{{ data.footer.link }}" target="_blank" rel="nofollow">{{ data.footer.subtitle }}</a> - {{ data.footer.update }}{{ site.time | date: '%H:%M %d/%m/%Y' }}  </p>
