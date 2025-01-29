@@ -1,5 +1,5 @@
 <header >{% if page.language == "en" %}{% assign data = site.data.dataen %}{% else %}{% assign data = site.data.data %}{% endif %} 
     <div class="image main" data-position="center">
-		<img src="{{ data.empresa.imagemPainel }}" alt="Painel" />
+		<img src="{{ data.empresa.imagemPainel }}" loading="lazy" alt="Painel" />
 	</div>
 </header>

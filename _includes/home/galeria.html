@@ -5,7 +5,7 @@
     <p> 
     </p>
        {% for video in galeria.video %}
-        <video controls controlsList="nodownload" poster="{{ video.capa }}">
+        <video controls controlsList="nodownload" loading="lazy" poster="{{ video.capa }}">
         <source src="{{ video.link }}" type="video/mp4"> 
         </video>
         {% endfor %}     
