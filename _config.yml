@@ -43,7 +43,7 @@ adsgoogle: UA-240366032-1
 
 sass:
   sass_dir: _sass
-  style: expanded # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style expanded compressed
+  style: compressed # expanded http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style expanded compressed
 
 # Build settings
 # compress-site: yes
