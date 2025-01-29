@@ -4,7 +4,7 @@
             <h2>{{ data.empresa.nome }}</h2>	
         </header> 
         <div class="spotlight">
-            <p>{{ data.empresa.detalhes | markdownify }}	</p> 
+            {{ data.empresa.detalhes | markdownify }}
         </div>			
     </div>     
 </section>
