@@ -1,7 +1,7 @@
-version: "4.3.2"
+version: "4.4.1"
 services:
   jekyll:
-      image: jekyll/jekyll:4.3.2
+      image: jekyll/jekyll:4.4.1
       command: jekyll serve --force_polling
       ports:
           - 4000:4000
